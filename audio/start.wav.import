@@ -7,10 +7,7 @@ path="res://.import/start.wav-5b4244b23d9f43a6d42d374d55698dc2.sample"
 [deps]
 
 source_file="res://audio/start.wav"
-source_md5="f13630f567e4aaba680640eabaedafa4"
-
 dest_files=[ "res://.import/start.wav-5b4244b23d9f43a6d42d374d55698dc2.sample" ]
-dest_md5="0135cd45f1cf70b08cad884360e86f76"
 
 [params]
 

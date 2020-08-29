@@ -7,10 +7,7 @@ path="res://.import/turning.wav-4c9cdbd54f88cfa1a4d3b80c48c8e350.sample"
 [deps]
 
 source_file="res://audio/inventory/journal/turning.wav"
-source_md5="ff52e68abc7c48f01cc30a10c6b0772d"
-
 dest_files=[ "res://.import/turning.wav-4c9cdbd54f88cfa1a4d3b80c48c8e350.sample" ]
-dest_md5="98ebeee435d16f026801247ad094064d"
 
 [params]
 

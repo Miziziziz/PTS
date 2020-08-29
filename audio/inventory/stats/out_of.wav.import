@@ -7,10 +7,7 @@ path="res://.import/out_of.wav-91589fbab1e40b98676885467ac51e40.sample"
 [deps]
 
 source_file="res://audio/inventory/stats/out_of.wav"
-source_md5="98ecc09ea22dcde8e4af103ba8ecc124"
-
 dest_files=[ "res://.import/out_of.wav-91589fbab1e40b98676885467ac51e40.sample" ]
-dest_md5="f5497132060b69eecdb272b6b3f527ad"
 
 [params]
 

@@ -7,10 +7,7 @@ path="res://.import/experience.wav-81a2ab8a68d6c5327d5db798a855bfd3.sample"
 [deps]
 
 source_file="res://audio/inventory/stats/experience.wav"
-source_md5="82466d87bc677f726d0af05a7a6d5d95"
-
 dest_files=[ "res://.import/experience.wav-81a2ab8a68d6c5327d5db798a855bfd3.sample" ]
-dest_md5="ce77f1e403dbedf154b2cf3136cdb6a9"
 
 [params]
 

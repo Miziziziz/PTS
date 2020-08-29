@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://graphics/tile_0084.png" type="Texture" id=1]
+
+[node name="PressurePlate" type="Sprite3D"]
+pixel_size = 0.1
+axis = 1
+texture = ExtResource( 1 )

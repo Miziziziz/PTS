@@ -7,10 +7,7 @@ path="res://.import/ignite.wav-312f1d5d0216be07f238f33ee5d3da1c.sample"
 [deps]
 
 source_file="res://audio/spells/ignite.wav"
-source_md5="6255e75bfa0119fe6fb013e03b444186"
-
 dest_files=[ "res://.import/ignite.wav-312f1d5d0216be07f238f33ee5d3da1c.sample" ]
-dest_md5="333a56954acb22b0c96834d319527147"
 
 [params]
 

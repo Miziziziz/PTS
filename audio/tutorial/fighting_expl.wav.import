@@ -7,10 +7,7 @@ path="res://.import/fighting_expl.wav-206446960b352baf38ad6e392ec28057.sample"
 [deps]
 
 source_file="res://audio/tutorial/fighting_expl.wav"
-source_md5="c063f094e65d753facdcfbc3e3b98a7a"
-
 dest_files=[ "res://.import/fighting_expl.wav-206446960b352baf38ad6e392ec28057.sample" ]
-dest_md5="7622a4c57fa6069d4f4e2b2f5f1d39b7"
 
 [params]
 

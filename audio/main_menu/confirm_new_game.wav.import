@@ -7,10 +7,7 @@ path="res://.import/confirm_new_game.wav-e0b6936d6734aa7b4d8b564c8a688f4c.sample
 [deps]
 
 source_file="res://audio/main_menu/confirm_new_game.wav"
-source_md5="f5ff90d3aa70077517a5fec7132e66fa"
-
 dest_files=[ "res://.import/confirm_new_game.wav-e0b6936d6734aa7b4d8b564c8a688f4c.sample" ]
-dest_md5="ef770ce49ca853ce907e2d4a3f23e1e6"
 
 [params]
 

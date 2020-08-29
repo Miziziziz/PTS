@@ -7,10 +7,7 @@ path="res://.import/sword.wav-f3d3e6585edf3b026605427dab14cfac.sample"
 [deps]
 
 source_file="res://audio/inventory/description/sword.wav"
-source_md5="c1e56697920bb9ec8910785a5e01ac9c"
-
 dest_files=[ "res://.import/sword.wav-f3d3e6585edf3b026605427dab14cfac.sample" ]
-dest_md5="5240fa043d12164505d29d562a834021"
 
 [params]
 

@@ -30,6 +30,14 @@ func attempt_interact():
 	if nearest_interactable_obj.has_method("pick_up"):
 		inventory.pickup_items(nearest_interactable_obj.pick_up())
 	"""
+	var nearby_objects = get_overlapping_areas()
+	for coll in nearby_objects:
+		if coll.has_method("pick_up"):
+			inventory.pickup_items(coll.pick_up())
+			return
+		elif coll.has_method("use"):
+			coll.use()
+			return
 	if raycaster.is_colliding():
 		var coll = raycaster.get_collider()
 		if coll.has_method("pick_up"):

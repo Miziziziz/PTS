@@ -7,10 +7,7 @@ path="res://.import/protection.wav-b3dd39631e326cf5fd58033cf3e59eda.sample"
 [deps]
 
 source_file="res://audio/inventory/description/protection.wav"
-source_md5="acbcc41b83b5b02d7804d0b70f911e67"
-
 dest_files=[ "res://.import/protection.wav-b3dd39631e326cf5fd58033cf3e59eda.sample" ]
-dest_md5="05201b6d61f837871d8349872e6550f1"
 
 [params]
 

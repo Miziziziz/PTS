@@ -15,113 +15,72 @@
 
 [node name="World" type="Node2D"]
 
-[node name="TileMap" type="TileMap" parent="." index="0"]
-
-mode = 0
+[node name="TileMap" type="TileMap" parent="." groups=[
+"tilemaps",
+]]
 tile_set = ExtResource( 1 )
 cell_size = Vector2( 16, 16 )
-cell_quadrant_size = 16
 cell_custom_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-cell_half_offset = 2
-cell_tile_origin = 0
-cell_y_sort = false
-cell_clip_uv = false
-collision_use_kinematic = false
-collision_friction = 1.0
-collision_bounce = 0.0
-collision_layer = 1
-collision_mask = 1
-occluder_light_mask = 1
 format = 1
 tile_data = PoolIntArray( -262143, 0, 0, -262142, 0, 0, -262141, 0, 0, -262140, 0, 0, -262139, 0, 0, -262138, 0, 0, -262137, 0, 0, -262136, 0, 0, -262135, 0, 0, -262134, 0, 0, -196607, 0, 0, -196598, 0, 0, -131071, 0, 0, -131069, 0, 0, -131068, 0, 0, -131067, 0, 0, -131066, 0, 0, -131065, 0, 0, -131064, 0, 0, -131063, 0, 0, -131062, 0, 0, -65535, 0, 0, -65533, 0, 0, 1, 0, 0, 3, 0, 0, 65537, 0, 0, 65539, 0, 0, 131073, 0, 0, 131075, 0, 0, 196609, 0, 0, 196611, 0, 0, 327656, 0, 0, 327657, 0, 0, 327658, 0, 0, 327659, 0, 0, 327660, 0, 0, 327661, 0, 0, 327662, 0, 0, 327663, 0, 0, 327664, 0, 0, 327671, 0, 0, 327672, 0, 0, 327673, 0, 0, 327674, 0, 0, 327675, 0, 0, 327676, 0, 0, 327677, 0, 0, 327678, 0, 0, 327679, 0, 0, 262144, 0, 0, 262145, 0, 0, 262147, 0, 0, 393192, 0, 0, 393200, 0, 0, 393207, 0, 0, 327683, 0, 0, 327697, 0, 0, 327698, 0, 0, 327699, 0, 0, 327700, 0, 0, 327701, 0, 0, 458728, 0, 0, 458729, 0, 0, 458730, 0, 0, 458731, 0, 0, 458732, 0, 0, 458733, 0, 0, 458734, 0, 0, 458736, 0, 0, 458743, 0, 0, 458745, 0, 0, 458746, 0, 0, 458747, 0, 0, 458748, 0, 0, 458749, 0, 0, 458750, 0, 0, 458751, 0, 0, 393216, 0, 0, 393217, 0, 0, 393219, 0, 0, 393233, 0, 0, 393237, 0, 0, 524270, 0, 0, 524272, 0, 0, 524279, 0, 0, 524281, 0, 0, 458753, 0, 0, 458755, 0, 0, 458769, 0, 0, 458773, 0, 0, 589806, 0, 0, 589808, 0, 0, 589815, 0, 0, 589817, 0, 0, 524289, 0, 0, 524291, 0, 0, 524305, 0, 0, 524309, 0, 0, 655342, 0, 0, 655344, 0, 0, 655351, 0, 0, 655353, 0, 0, 589825, 0, 0, 589827, 0, 0, 589841, 0, 0, 589842, 0, 0, 589844, 0, 0, 589845, 0, 0, 720878, 0, 0, 720880, 0, 0, 720887, 0, 0, 720889, 0, 0, 720892, 0, 0, 720893, 0, 0, 720894, 0, 0, 720895, 0, 0, 655360, 0, 0, 655361, 0, 0, 655363, 0, 0, 655378, 0, 0, 655380, 0, 0, 786414, 0, 0, 786416, 0, 0, 786423, 0, 0, 786425, 0, 0, 786428, 0, 0, 720899, 0, 0, 720914, 0, 0, 720916, 0, 0, 851950, 0, 0, 851952, 0, 0, 851959, 0, 0, 851961, 0, 0, 851964, 0, 0, 851966, 0, 0, 851967, 0, 0, 786432, 0, 0, 786433, 0, 0, 786434, 0, 0, 786435, 0, 0, 786450, 0, 0, 786452, 0, 0, 917486, 0, 0, 917488, 0, 0, 917495, 0, 0, 917497, 0, 0, 917500, 0, 0, 917502, 0, 0, 851986, 0, 0, 851988, 0, 0, 983022, 0, 0, 983024, 0, 0, 983025, 0, 0, 983026, 0, 0, 983027, 0, 0, 983028, 0, 0, 983029, 0, 0, 983030, 0, 0, 983031, 0, 0, 983033, 0, 0, 983036, 0, 0, 983038, 0, 0, 917515, 0, 0, 917516, 0, 0, 917517, 0, 0, 917518, 0, 0, 917519, 0, 0, 917520, 0, 0, 917521, 0, 0, 917522, 0, 0, 917524, 0, 0, 1048558, 0, 0, 1048569, 0, 0, 1048572, 0, 0, 1048574, 0, 0, 983051, 0, 0, 983060, 0, 0, 1114094, 0, 0, 1114095, 0, 0, 1114096, 0, 0, 1114097, 0, 0, 1114098, 0, 0, 1114099, 0, 0, 1114100, 0, 0, 1114101, 0, 0, 1114102, 0, 0, 1114103, 0, 0, 1114104, 0, 0, 1114105, 0, 0, 1114108, 0, 0, 1114110, 0, 0, 1048587, 0, 0, 1048589, 0, 0, 1048590, 0, 0, 1048591, 0, 0, 1048592, 0, 0, 1048593, 0, 0, 1048594, 0, 0, 1048595, 0, 0, 1048596, 0, 0, 1179644, 0, 0, 1179646, 0, 0, 1114123, 0, 0, 1114125, 0, 0, 1245180, 0, 0, 1245182, 0, 0, 1179659, 0, 0, 1179661, 0, 0, 1179662, 0, 0, 1179663, 0, 0, 1179664, 0, 0, 1179665, 0, 0, 1310716, 0, 0, 1310718, 0, 0, 1245195, 0, 0, 1245201, 0, 0, 1376252, 0, 0, 1376254, 0, 0, 1310731, 0, 0, 1310733, 0, 0, 1310734, 0, 0, 1310735, 0, 0, 1310736, 0, 0, 1310737, 0, 0, 1441788, 0, 0, 1441790, 0, 0, 1441791, 0, 0, 1376256, 0, 0, 1376257, 0, 0, 1376258, 0, 0, 1376259, 0, 0, 1376260, 0, 0, 1376261, 0, 0, 1376262, 0, 0, 1376263, 0, 0, 1376264, 0, 0, 1376265, 0, 0, 1376266, 0, 0, 1376267, 0, 0, 1376269, 0, 0, 1507324, 0, 0, 1441805, 0, 0, 1572860, 0, 0, 1572861, 0, 0, 1572862, 0, 0, 1572863, 0, 0, 1507328, 0, 0, 1507329, 0, 0, 1507330, 0, 0, 1507331, 0, 0, 1507332, 0, 0, 1507333, 0, 0, 1507334, 0, 0, 1507335, 0, 0, 1507336, 0, 0, 1507337, 0, 0, 1507338, 0, 0, 1507339, 0, 0, 1507340, 0, 0, 1507341, 0, 0 )
-_sections_unfolded = [ "Cell" ]
 
-[node name="Player" parent="." index="1" instance=ExtResource( 2 )]
-
+[node name="Player" parent="." instance=ExtResource( 2 )]
 position = Vector2( -360, 88 )
 rotation = -1.5708
-_sections_unfolded = [ "Collision", "Transform", "collision" ]
 
-[node name="NPC" parent="." index="2" instance=ExtResource( 3 )]
-
+[node name="NPC" parent="." instance=ExtResource( 3 )]
 position = Vector2( 72, -40 )
 id = "h_zombie"
 
-[node name="NPC2" parent="." index="3" instance=ExtResource( 3 )]
-
+[node name="NPC2" parent="." instance=ExtResource( 3 )]
 position = Vector2( -40, 360 )
 id = "h_zombie"
 
-[node name="NPC3" parent="." index="4" instance=ExtResource( 3 )]
-
+[node name="NPC3" parent="." instance=ExtResource( 3 )]
 position = Vector2( 200, 248 )
 id = "h_zombie"
 
-[node name="NPC5" parent="." index="5" instance=ExtResource( 3 )]
-
+[node name="NPC5" parent="." instance=ExtResource( 3 )]
 position = Vector2( 312, 184 )
 id = "h_zombie"
 
-[node name="DeadRanger" parent="." index="6" instance=ExtResource( 4 )]
-
-editor/display_folded = true
+[node name="DeadRanger" parent="." instance=ExtResource( 4 )]
 position = Vector2( 152, -40 )
 content1 = "w_bow"
 
-[node name="JournalLogTrigger3" parent="DeadRanger" index="1" instance=ExtResource( 5 )]
-
+[node name="JournalLogTrigger3" parent="DeadRanger" instance=ExtResource( 5 )]
 position = Vector2( -32, 0 )
 stream = ExtResource( 6 )
-play_on_start = false
 
-[node name="PotionShelf" parent="." index="7" instance=ExtResource( 4 )]
-
-editor/display_folded = true
+[node name="PotionShelf" parent="." instance=ExtResource( 4 )]
 position = Vector2( 264, 312 )
 content1 = "p_hp_basic_potion"
 
-[node name="JournalLogTrigger3" parent="PotionShelf" index="1" instance=ExtResource( 5 )]
-
+[node name="JournalLogTrigger3" parent="PotionShelf" instance=ExtResource( 5 )]
 position = Vector2( -16, 0 )
 stream = ExtResource( 7 )
-play_on_start = false
 
-[node name="Ladder" parent="." index="8" instance=ExtResource( 8 )]
-
+[node name="Ladder" parent="." instance=ExtResource( 8 )]
 position = Vector2( 312, 120 )
-load_next_on_use = true
 
-[node name="JournalLogTrigger" parent="." index="9" instance=ExtResource( 5 )]
-
-editor/display_folded = true
+[node name="JournalLogTrigger" parent="." instance=ExtResource( 5 )]
 position = Vector2( -360, 104 )
 stream = ExtResource( 9 )
 play_on_start = true
 
-[node name="JournalLogTrigger2" parent="." index="10" instance=ExtResource( 5 )]
-
+[node name="JournalLogTrigger2" parent="." instance=ExtResource( 5 )]
 position = Vector2( 40, 88 )
 stream = ExtResource( 10 )
-play_on_start = false
 
-[node name="JournalLogTrigger3" parent="." index="11" instance=ExtResource( 5 )]
-
+[node name="JournalLogTrigger3" parent="." instance=ExtResource( 5 )]
 position = Vector2( 40, 88 )
 stream = ExtResource( 10 )
-play_on_start = false
 
-[node name="StoneGate" parent="." index="12" instance=ExtResource( 11 )]
-
+[node name="StoneGate" parent="." instance=ExtResource( 11 )]
 position = Vector2( 40, 152 )
 
-[node name="JournalLogTrigger3" parent="StoneGate" index="2" instance=ExtResource( 5 )]
-
+[node name="JournalLogTrigger3" parent="StoneGate" instance=ExtResource( 5 )]
 position = Vector2( 0, -16 )
 stream = ExtResource( 12 )
-play_on_start = false
-
 [connection signal="opened" from="DeadRanger" to="StoneGate" method="open"]
-
 [connection signal="opened" from="DeadRanger" to="StoneGate/JournalLogTrigger3" method="dont_play"]
-
-

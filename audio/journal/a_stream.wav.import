@@ -7,10 +7,7 @@ path="res://.import/a_stream.wav-5acee6f694a491e1ce39fa4089537243.sample"
 [deps]
 
 source_file="res://audio/journal/a_stream.wav"
-source_md5="daed51bbb4e4f892e94a15dfe8d60832"
-
 dest_files=[ "res://.import/a_stream.wav-5acee6f694a491e1ce39fa4089537243.sample" ]
-dest_md5="ffae0d51ca922c1254751c1d7419898c"
 
 [params]
 

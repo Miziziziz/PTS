@@ -7,10 +7,7 @@ path="res://.import/skill_points.wav-3c0cb9935b975ac60eff9c87bd8b3765.sample"
 [deps]
 
 source_file="res://audio/inventory/stats/skill_points.wav"
-source_md5="d85e002c7d974ed8ebfea028bd1d4b3b"
-
 dest_files=[ "res://.import/skill_points.wav-3c0cb9935b975ac60eff9c87bd8b3765.sample" ]
-dest_md5="41d30d705e6a0c8fe8470aed1d589044"
 
 [params]
 

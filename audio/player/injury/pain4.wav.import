@@ -7,10 +7,7 @@ path="res://.import/pain4.wav-c7a471f30dfeeca6c70ae0981627a1c1.sample"
 [deps]
 
 source_file="res://audio/player/injury/pain4.wav"
-source_md5="1c8556531a6082ef226f91d72ded7093"
-
 dest_files=[ "res://.import/pain4.wav-c7a471f30dfeeca6c70ae0981627a1c1.sample" ]
-dest_md5="53c20c40a1dcb2692c8ff0b2272cf5ef"
 
 [params]
 

@@ -7,10 +7,7 @@ path="res://.import/fee.wav-1e81791ed8850f760da14ed686bfdc40.sample"
 [deps]
 
 source_file="res://audio/player/echolocation/fee.wav"
-source_md5="e9a0ef414c595f26df8ad2f97fb5dd61"
-
 dest_files=[ "res://.import/fee.wav-1e81791ed8850f760da14ed686bfdc40.sample" ]
-dest_md5="f2468b3fb8db344d01a4abf5494dfe64"
 
 [params]
 

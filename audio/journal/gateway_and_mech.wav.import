@@ -7,10 +7,7 @@ path="res://.import/gateway_and_mech.wav-693cf9c42e08baf1b56bf28871213a09.sample
 [deps]
 
 source_file="res://audio/journal/gateway_and_mech.wav"
-source_md5="baf426f083e0a0c0f55ebf2bb2cd9caa"
-
 dest_files=[ "res://.import/gateway_and_mech.wav-693cf9c42e08baf1b56bf28871213a09.sample" ]
-dest_md5="d82797aaadef8a90020e4cd845d5f76c"
 
 [params]
 

@@ -7,10 +7,7 @@ path="res://.import/gate_in_front.wav-38f96a0aeb77ac482409b5446c497dbc.sample"
 [deps]
 
 source_file="res://audio/journal/gate_in_front.wav"
-source_md5="ea826b246b0e313720d099a75459e860"
-
 dest_files=[ "res://.import/gate_in_front.wav-38f96a0aeb77ac482409b5446c497dbc.sample" ]
-dest_md5="ae23cd1365dcb5964044d051d0b2142c"
 
 [params]
 

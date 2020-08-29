@@ -3,29 +3,14 @@
 [ext_resource path="res://environment/lootbag.gd" type="Script" id=1]
 
 [sub_resource type="RectangleShape2D" id=1]
-
-custom_solver_bias = 0.0
 extents = Vector2( 8, 8 )
 
-[node name="LootBag" type="Area2D"]
-
-input_pickable = true
-gravity_vec = Vector2( 0, 1 )
-gravity = 98.0
-linear_damp = 0.1
-angular_damp = 1.0
+[node name="LootBag" type="Area2D" groups=[
+"chests",
+]]
 collision_layer = 2
 collision_mask = 0
-audio_bus_override = false
-audio_bus_name = "Master"
 script = ExtResource( 1 )
-_sections_unfolded = [ "Collision" ]
-content1 = null
-content2 = null
-content3 = null
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." index="0"]
-
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource( 1 )
-
-

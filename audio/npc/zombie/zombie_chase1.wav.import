@@ -7,10 +7,7 @@ path="res://.import/zombie_chase1.wav-09cdd187ad5c17bbd75c6ec339fa572d.sample"
 [deps]
 
 source_file="res://audio/npc/zombie/zombie_chase1.wav"
-source_md5="2871b457c76cddb7f9cff97281d0fc56"
-
 dest_files=[ "res://.import/zombie_chase1.wav-09cdd187ad5c17bbd75c6ec339fa572d.sample" ]
-dest_md5="f24480b5d47c94d85509709f536370f1"
 
 [params]
 

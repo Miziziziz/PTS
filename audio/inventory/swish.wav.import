@@ -7,10 +7,7 @@ path="res://.import/swish.wav-e24201cf40555fe656eba87dd82837fb.sample"
 [deps]
 
 source_file="res://audio/inventory/swish.wav"
-source_md5="a2d846b0c0a38e78cdccefc4cd8010c3"
-
 dest_files=[ "res://.import/swish.wav-e24201cf40555fe656eba87dd82837fb.sample" ]
-dest_md5="6333d34a7896fb7f27879b166f6a74f1"
 
 [params]
 

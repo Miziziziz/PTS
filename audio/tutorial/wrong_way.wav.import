@@ -7,10 +7,7 @@ path="res://.import/wrong_way.wav-140d7d1b24e00ec398bae82d47716b58.sample"
 [deps]
 
 source_file="res://audio/tutorial/wrong_way.wav"
-source_md5="095801be799d575053f35009d9075e9b"
-
 dest_files=[ "res://.import/wrong_way.wav-140d7d1b24e00ec398bae82d47716b58.sample" ]
-dest_md5="d1856a486abb4042ecb0db917d7a5b1b"
 
 [params]
 

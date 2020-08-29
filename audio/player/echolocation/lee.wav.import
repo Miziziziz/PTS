@@ -7,10 +7,7 @@ path="res://.import/lee.wav-60acd11d223ac5e68ece84e8b11faf0c.sample"
 [deps]
 
 source_file="res://audio/player/echolocation/lee.wav"
-source_md5="2d450df2e5189a2940014354cb6490d4"
-
 dest_files=[ "res://.import/lee.wav-60acd11d223ac5e68ece84e8b11faf0c.sample" ]
-dest_md5="3813456b268626bc70a6b48868c6ceee"
 
 [params]
 

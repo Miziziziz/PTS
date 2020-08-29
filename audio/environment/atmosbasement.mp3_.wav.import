@@ -7,10 +7,7 @@ path="res://.import/atmosbasement.mp3_.wav-e5cd91ac7036f7c627d71411199521b0.samp
 [deps]
 
 source_file="res://audio/environment/atmosbasement.mp3_.wav"
-source_md5="aabe9196b51e8c0abdbbbb9412a28d3d"
-
 dest_files=[ "res://.import/atmosbasement.mp3_.wav-e5cd91ac7036f7c627d71411199521b0.sample" ]
-dest_md5="7453b96397b9c15d5ee14e76486c2213"
 
 [params]
 

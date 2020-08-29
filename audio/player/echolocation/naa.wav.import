@@ -7,10 +7,7 @@ path="res://.import/naa.wav-31128e81ab5871b40ef94d902c068e52.sample"
 [deps]
 
 source_file="res://audio/player/echolocation/naa.wav"
-source_md5="f49e23b5f225d635d69a2996df884588"
-
 dest_files=[ "res://.import/naa.wav-31128e81ab5871b40ef94d902c068e52.sample" ]
-dest_md5="c697d2860aeaf791333c5291c416b815"
 
 [params]
 

@@ -7,10 +7,7 @@ path="res://.import/heartbeat_expl.wav-b0d5affd6f15b509fc57686f6ae1f558.sample"
 [deps]
 
 source_file="res://audio/tutorial/heartbeat_expl.wav"
-source_md5="783c99ffd80eeaf5a0502d4743d6bd2b"
-
 dest_files=[ "res://.import/heartbeat_expl.wav-b0d5affd6f15b509fc57686f6ae1f558.sample" ]
-dest_md5="0c2d9a72aa94a812f714dc5d0ba3bd01"
 
 [params]
 

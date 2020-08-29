@@ -7,10 +7,7 @@ path="res://.import/close_inventory.wav-2b34677d65c1a57b98fb69289b9b41ca.sample"
 [deps]
 
 source_file="res://audio/inventory/close_inventory.wav"
-source_md5="8159b02917e5d0d4c83c3028c583798b"
-
 dest_files=[ "res://.import/close_inventory.wav-2b34677d65c1a57b98fb69289b9b41ca.sample" ]
-dest_md5="e9fec37bdd7305e4ee3f95f0d0a37fb8"
 
 [params]
 

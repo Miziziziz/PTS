@@ -7,10 +7,7 @@ path="res://.import/ranged.wav-6f72db9f4f89ca99d7ae308e0d469750.sample"
 [deps]
 
 source_file="res://audio/inventory/stats/ranged.wav"
-source_md5="66af6536b7c428f6cc65b42c4fc29f5a"
-
 dest_files=[ "res://.import/ranged.wav-6f72db9f4f89ca99d7ae308e0d469750.sample" ]
-dest_md5="4433e64660656c3acea80b0f4a18c890"
 
 [params]
 

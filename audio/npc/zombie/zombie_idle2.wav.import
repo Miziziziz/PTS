@@ -7,10 +7,7 @@ path="res://.import/zombie_idle2.wav-33def8d3f7b7f99fc576dffef57c5e5a.sample"
 [deps]
 
 source_file="res://audio/npc/zombie/zombie_idle2.wav"
-source_md5="022c40528a88113f80754b7fbf16e2f6"
-
 dest_files=[ "res://.import/zombie_idle2.wav-33def8d3f7b7f99fc576dffef57c5e5a.sample" ]
-dest_md5="a72200c0ce9e4450438ae6f0b938edb8"
 
 [params]
 

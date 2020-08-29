@@ -7,10 +7,7 @@ path="res://.import/chainmail2.wav-8a447366c3db0920ed802d60b2e848f9.sample"
 [deps]
 
 source_file="res://audio/armor/chainmail2.wav"
-source_md5="6ee81c08fe5369925f2f3633fa6b8b9f"
-
 dest_files=[ "res://.import/chainmail2.wav-8a447366c3db0920ed802d60b2e848f9.sample" ]
-dest_md5="eda802d868b3a343cc7b65d1520a1a37"
 
 [params]
 

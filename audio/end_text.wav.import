@@ -7,10 +7,7 @@ path="res://.import/end_text.wav-6a705892b7fb4eabe75fb9222d0a698b.sample"
 [deps]
 
 source_file="res://audio/end_text.wav"
-source_md5="095bb46674f2f6119acf96beb664acb4"
-
 dest_files=[ "res://.import/end_text.wav-6a705892b7fb4eabe75fb9222d0a698b.sample" ]
-dest_md5="1174aa3e1d1994921d4869394d3f967d"
 
 [params]
 

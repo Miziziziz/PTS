@@ -7,10 +7,7 @@ path="res://.import/chime_g3.wav-ebac1928da338df3993e8e30b350dcaa.sample"
 [deps]
 
 source_file="res://puzzles/music_puzzle/chime_g3.wav"
-source_md5="66334844e1d51406fea8ae06d75a4cc4"
-
 dest_files=[ "res://.import/chime_g3.wav-ebac1928da338df3993e8e30b350dcaa.sample" ]
-dest_md5="2a6f5f3e42ed17df86b0b949b6186dfc"
 
 [params]
 

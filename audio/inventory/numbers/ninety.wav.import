@@ -7,10 +7,7 @@ path="res://.import/ninety.wav-61632a48b60d4fc40a15cf1f0b5942c0.sample"
 [deps]
 
 source_file="res://audio/inventory/numbers/ninety.wav"
-source_md5="a23b78d001bbe77dc8ae79c30982cd8b"
-
 dest_files=[ "res://.import/ninety.wav-61632a48b60d4fc40a15cf1f0b5942c0.sample" ]
-dest_md5="4484047d6e7dd31fc03ab7ad126c0db2"
 
 [params]
 

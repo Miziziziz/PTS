@@ -7,10 +7,7 @@ path="res://.import/echo_and_movement.wav-eda9515a1f2f6b11681836825b732699.sampl
 [deps]
 
 source_file="res://audio/tutorial/echo_and_movement.wav"
-source_md5="a6e8ad658672a61aa7cff6a1cf87626c"
-
 dest_files=[ "res://.import/echo_and_movement.wav-eda9515a1f2f6b11681836825b732699.sample" ]
-dest_md5="9ca0968d9215b5c76a3f8254dc565ab5"
 
 [params]
 

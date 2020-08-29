@@ -7,10 +7,7 @@ path="res://.import/movement.wav-9c2db57c79d4493d607bdeb9d66ae658.sample"
 [deps]
 
 source_file="res://audio/inventory/journal/movement.wav"
-source_md5="2f11c41211a9c2fb13b550a13a0c74f5"
-
 dest_files=[ "res://.import/movement.wav-9c2db57c79d4493d607bdeb9d66ae658.sample" ]
-dest_md5="017c0db7f80164ac6c6a0e1b8d68c16f"
 
 [params]
 

@@ -7,10 +7,7 @@ path="res://.import/pressure_plate_and_chime.wav-3db6f570fe9cc3ca33043552f3b8572
 [deps]
 
 source_file="res://audio/journal/pressure_plate_and_chime.wav"
-source_md5="69e4912c817b258374a1db72c3effc37"
-
 dest_files=[ "res://.import/pressure_plate_and_chime.wav-3db6f570fe9cc3ca33043552f3b85724.sample" ]
-dest_md5="6321c233622a87a160d4293ea403803b"
 
 [params]
 

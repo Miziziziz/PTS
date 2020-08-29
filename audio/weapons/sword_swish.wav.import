@@ -7,10 +7,7 @@ path="res://.import/sword_swish.wav-6e40fead7e0c84df74bc5c626662d69a.sample"
 [deps]
 
 source_file="res://audio/weapons/sword_swish.wav"
-source_md5="30b6c2effb57fe249d34af179af03bd1"
-
 dest_files=[ "res://.import/sword_swish.wav-6e40fead7e0c84df74bc5c626662d69a.sample" ]
-dest_md5="cdd2888b014b2b955587a6005663b246"
 
 [params]
 

@@ -7,10 +7,7 @@ path="res://.import/heartbeat.wav-68a55f569d8c139e59e2c7443ba60a88.sample"
 [deps]
 
 source_file="res://characters/player/player_audio/heartbeat.wav"
-source_md5="f4b9138e1fed92f4d9ee52ef178d1939"
-
 dest_files=[ "res://.import/heartbeat.wav-68a55f569d8c139e59e2c7443ba60a88.sample" ]
-dest_md5="32f713f46a349e8e502119d746c2fe76"
 
 [params]
 

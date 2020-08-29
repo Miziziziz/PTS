@@ -7,10 +7,7 @@ path="res://.import/sword_unsheathe.wav-76adaf954423daf8b41dd0833a6a6654.sample"
 [deps]
 
 source_file="res://audio/weapons/sword_unsheathe.wav"
-source_md5="76ec3ef9de490a5eb14b6ff55decb9ec"
-
 dest_files=[ "res://.import/sword_unsheathe.wav-76adaf954423daf8b41dd0833a6a6654.sample" ]
-dest_md5="5acde1c7bbe35581f32da280459dc63e"
 
 [params]
 

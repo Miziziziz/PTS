@@ -7,10 +7,7 @@ path="res://.import/Babbling Brook-SoundBible.com-17660315.wav-e749c196e75775660
 [deps]
 
 source_file="res://audio/environment/Babbling Brook-SoundBible.com-17660315.wav"
-source_md5="d6fb29274e168b9a0ea1ab900cb9656b"
-
 dest_files=[ "res://.import/Babbling Brook-SoundBible.com-17660315.wav-e749c196e7577566022173ad16595230.sample" ]
-dest_md5="7ecaa763484011f1a063196ba4e4e2b4"
 
 [params]
 

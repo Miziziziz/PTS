@@ -7,10 +7,7 @@ path="res://.import/koo.wav-4012e1a9ab3ae1e4885599397ab2bd4c.sample"
 [deps]
 
 source_file="res://audio/player/echolocation/koo.wav"
-source_md5="5ff42a4ceddfbf7b363c204dbd7bf7ab"
-
 dest_files=[ "res://.import/koo.wav-4012e1a9ab3ae1e4885599397ab2bd4c.sample" ]
-dest_md5="2793baad35084d53adff0381ffe546ea"
 
 [params]
 

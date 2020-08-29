@@ -7,10 +7,7 @@ path="res://.import/you_died.wav-7d2eba07578fe03567418d8f56b7c183.sample"
 [deps]
 
 source_file="res://audio/player/you_died.wav"
-source_md5="f052637695bcaedfb636a4f0c83d6f2b"
-
 dest_files=[ "res://.import/you_died.wav-7d2eba07578fe03567418d8f56b7c183.sample" ]
-dest_md5="daaf4381db62f90f6fec7ec331f4606e"
 
 [params]
 

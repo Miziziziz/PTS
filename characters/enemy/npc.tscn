@@ -5,52 +5,26 @@
 [ext_resource path="res://characters/enemy/npc_audio_controller.gd" type="Script" id=3]
 
 [sub_resource type="CircleShape2D" id=1]
-
-custom_solver_bias = 0.0
 radius = 7.0
 
 [sub_resource type="AudioStreamSample" id=2]
 
-format = 0
-loop_mode = 0
-loop_begin = 0
-loop_end = 0
-mix_rate = 44100
-stereo = false
-data = PoolByteArray(  )
-
-[node name="NPC" type="KinematicBody2D"]
-
-input_pickable = false
-collision_layer = 1
-collision_mask = 1
-collision/safe_margin = 0.08
+[node name="NPC" type="KinematicBody2D" groups=[
+"enemies",
+]]
 script = ExtResource( 1 )
-_sections_unfolded = [ "Collision", "Pickable", "collision" ]
-id = ""
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." index="0"]
-
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource( 1 )
 
-[node name="RayCast2D" type="RayCast2D" parent="." index="1"]
-
+[node name="RayCast2D" type="RayCast2D" parent="."]
 enabled = true
-exclude_parent = true
-cast_to = Vector2( 0, 50 )
 collision_mask = 3
 
-[node name="Health" parent="." index="2" instance=ExtResource( 2 )]
+[node name="Health" parent="." instance=ExtResource( 2 )]
 
-[node name="NPCAudioController" type="AudioStreamPlayer2D" parent="." index="3"]
-
+[node name="NPCAudioController" type="AudioStreamPlayer2D" parent="."]
 stream = SubResource( 2 )
-volume_db = 0.0
-autoplay = false
 max_distance = 300.0
 attenuation = 2.0
-bus = "Master"
-area_mask = 1
 script = ExtResource( 3 )
-
-

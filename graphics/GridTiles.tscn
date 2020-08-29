@@ -1,0 +1,19 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://graphics/outline.png" type="Texture" id=1]
+
+[sub_resource type="CubeMesh" id=1]
+size = Vector3( 1, 1, 1 )
+
+[sub_resource type="SpatialMaterial" id=2]
+flags_unshaded = true
+flags_world_triplanar = true
+albedo_texture = ExtResource( 1 )
+uv1_triplanar = true
+uv2_triplanar = true
+
+[node name="GridTiles" type="Spatial"]
+
+[node name="Block" type="MeshInstance" parent="."]
+mesh = SubResource( 1 )
+material/0 = SubResource( 2 )

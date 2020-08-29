@@ -7,10 +7,7 @@ path="res://.import/low_hp_warning.wav-9d52f2d11db504729eed5cba823d39f7.sample"
 [deps]
 
 source_file="res://audio/player/injury/low_hp_warning.wav"
-source_md5="df1b1a05bfd88618cb9cfbb3111bc087"
-
 dest_files=[ "res://.import/low_hp_warning.wav-9d52f2d11db504729eed5cba823d39f7.sample" ]
-dest_md5="9b569b25d76c9df13944439abf999cd9"
 
 [params]
 

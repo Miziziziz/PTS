@@ -7,10 +7,7 @@ path="res://.import/healed.wav-af625253df0e9fb5c4335138dfe2082f.sample"
 [deps]
 
 source_file="res://audio/inventory/action/healed.wav"
-source_md5="933bac9437ea5ff7e10545a05ab2d46a"
-
 dest_files=[ "res://.import/healed.wav-af625253df0e9fb5c4335138dfe2082f.sample" ]
-dest_md5="991ebeba19a6e44a0e3c7c805c4d10a8"
 
 [params]
 

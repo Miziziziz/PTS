@@ -7,10 +7,7 @@ path="res://.import/health.wav-41462615732d1799b0c6faf1c019622f.sample"
 [deps]
 
 source_file="res://audio/inventory/stats/health.wav"
-source_md5="c0600a448d6d91a2d740e34c0156fd33"
-
 dest_files=[ "res://.import/health.wav-41462615732d1799b0c6faf1c019622f.sample" ]
-dest_md5="b5ba81f58bf949271dc5d89748191e16"
 
 [params]
 

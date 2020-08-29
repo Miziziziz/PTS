@@ -7,10 +7,7 @@ path="res://.import/kee.wav-207cdf68eb40e12227864712bf2c816f.sample"
 [deps]
 
 source_file="res://audio/player/echolocation/kee.wav"
-source_md5="e8e7247fac68231022aa43e227127ed3"
-
 dest_files=[ "res://.import/kee.wav-207cdf68eb40e12227864712bf2c816f.sample" ]
-dest_md5="5a756016273ddb941fde1b5dc74cd66f"
 
 [params]
 

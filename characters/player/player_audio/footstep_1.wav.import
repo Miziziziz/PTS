@@ -7,10 +7,7 @@ path="res://.import/footstep_1.wav-83237acb829aa23b88b19b672c54ce5b.sample"
 [deps]
 
 source_file="res://characters/player/player_audio/footstep_1.wav"
-source_md5="5ba27e9ed234435f0de78fb2b9055504"
-
 dest_files=[ "res://.import/footstep_1.wav-83237acb829aa23b88b19b672c54ce5b.sample" ]
-dest_md5="c08dee9b7d8bf78158e84c0896711882"
 
 [params]
 

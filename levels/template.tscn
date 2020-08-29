@@ -8,58 +8,34 @@
 [ext_resource path="res://utility/stone_gate.tscn" type="PackedScene" id=6]
 [ext_resource path="res://utility/journal_log_trigger.tscn" type="PackedScene" id=7]
 
-[node name="World" type="Node2D" index="0"]
+[node name="World" type="Node2D"]
 
-[node name="TileMap" type="TileMap" parent="." index="0"]
-
-mode = 0
+[node name="TileMap" type="TileMap" parent="." groups=[
+"tilemaps",
+]]
 tile_set = ExtResource( 1 )
 cell_size = Vector2( 16, 16 )
-cell_quadrant_size = 16
 cell_custom_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-cell_half_offset = 2
-cell_tile_origin = 0
-cell_y_sort = false
-cell_clip_uv = false
-collision_use_kinematic = false
-collision_friction = 1.0
-collision_bounce = 0.0
-collision_layer = 1
-collision_mask = 1
-occluder_light_mask = 1
 format = 1
-tile_data = PoolIntArray(  )
-_sections_unfolded = [ "Cell" ]
 
-[node name="Player" parent="." index="1" instance=ExtResource( 2 )]
-
-editor/display_folded = true
+[node name="Player" parent="." instance=ExtResource( 2 )]
 position = Vector2( -56, -8 )
 rotation = -1.5708
-_sections_unfolded = [ "Collision", "Transform", "collision" ]
 
-[node name="NPC" parent="." index="2" instance=ExtResource( 3 )]
-
+[node name="NPC" parent="." instance=ExtResource( 3 )]
 id = "h_zombie"
 
-[node name="LootBag" parent="." index="3" instance=ExtResource( 4 )]
-
+[node name="LootBag" parent="." instance=ExtResource( 4 )]
 position = Vector2( 48, 0 )
 content1 = "w_bronze_dagger"
 
-[node name="Ladder" parent="." index="4" instance=ExtResource( 5 )]
-
+[node name="Ladder" parent="." instance=ExtResource( 5 )]
 position = Vector2( 96, 0 )
-load_next_on_use = true
 
-[node name="StoneGate" parent="." index="5" instance=ExtResource( 6 )]
+[node name="StoneGate" parent="." instance=ExtResource( 6 )]
 
-closed = true
-
-[node name="JournalLogTrigger" parent="." index="6" instance=ExtResource( 7 )]
-
-play_on_start = false
-
+[node name="JournalLogTrigger" parent="." instance=ExtResource( 7 )]
 
 [editable path="Player"]
+
 [editable path="Player/Inventory"]

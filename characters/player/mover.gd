@@ -50,7 +50,6 @@ func _ready():
 func _physics_process(delta):
 	if kine_body == null:
 		return
-	
 	if !moving and dir_vector.length_squared() > 0:
 		cur_vector = calc_move_vec(dir_vector.rotated(global_rotation))
 		goal_pos = cur_vector * 16 + global_position

@@ -7,10 +7,7 @@ path="res://.import/Large Monster Grunt Hit 01.wav-541df209ed519ae7b1625407390b4
 [deps]
 
 source_file="res://audio/npc/large_monster/Large Monster Grunt Hit 01.wav"
-source_md5="dbe6b7144e1a8252b679c70ae00304e5"
-
 dest_files=[ "res://.import/Large Monster Grunt Hit 01.wav-541df209ed519ae7b1625407390b4713.sample" ]
-dest_md5="e148e8cb79e00898c9dc99397ee77219"
 
 [params]
 

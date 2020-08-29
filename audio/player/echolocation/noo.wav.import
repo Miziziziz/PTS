@@ -7,10 +7,7 @@ path="res://.import/noo.wav-157d1a22290250e893d48e9abdc4b82f.sample"
 [deps]
 
 source_file="res://audio/player/echolocation/noo.wav"
-source_md5="9ae633cdfef8be37abf08c077720337b"
-
 dest_files=[ "res://.import/noo.wav-157d1a22290250e893d48e9abdc4b82f.sample" ]
-dest_md5="8ab501567ad50e1a440d2b35a12cc927"
 
 [params]
 

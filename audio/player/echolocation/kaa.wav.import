@@ -7,10 +7,7 @@ path="res://.import/kaa.wav-524f49d28b8a59810bceb823f2748f74.sample"
 [deps]
 
 source_file="res://audio/player/echolocation/kaa.wav"
-source_md5="cbf957a10fb4699c421b71639fe8d94b"
-
 dest_files=[ "res://.import/kaa.wav-524f49d28b8a59810bceb823f2748f74.sample" ]
-dest_md5="7fd549dc8815cd7c237755cfef2f8df4"
 
 [params]
 

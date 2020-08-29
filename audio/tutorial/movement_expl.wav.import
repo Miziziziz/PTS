@@ -7,10 +7,7 @@ path="res://.import/movement_expl.wav-88c8f0904c89049005a6c2c8acf0e8c7.sample"
 [deps]
 
 source_file="res://audio/tutorial/movement_expl.wav"
-source_md5="be3b82dea81073a26bac74f78ea1e4cc"
-
 dest_files=[ "res://.import/movement_expl.wav-88c8f0904c89049005a6c2c8acf0e8c7.sample" ]
-dest_md5="f4bf5f7c8fdb6c6ae62f3e93ad7576f6"
 
 [params]
 

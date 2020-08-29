@@ -16,119 +16,79 @@
 
 [node name="World" type="Node2D"]
 
-[node name="TileMap" type="TileMap" parent="." index="0"]
-
-mode = 0
+[node name="TileMap" type="TileMap" parent="." groups=[
+"tilemaps",
+]]
 tile_set = ExtResource( 1 )
 cell_size = Vector2( 16, 16 )
-cell_quadrant_size = 16
 cell_custom_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-cell_half_offset = 2
-cell_tile_origin = 0
-cell_y_sort = false
-cell_clip_uv = false
-collision_use_kinematic = false
-collision_friction = 1.0
-collision_bounce = 0.0
-collision_layer = 1
-collision_mask = 1
-occluder_light_mask = 1
 format = 1
 tile_data = PoolIntArray( -589824, 0, 0, -589823, 0, 0, -589822, 0, 0, -589821, 0, 0, -589820, 0, 0, -589819, 0, 0, -524288, 0, 0, -524283, 0, 0, -458752, 0, 0, -458750, 0, 0, -458749, 0, 0, -458748, 0, 0, -458747, 0, 0, -393216, 0, 0, -393214, 0, 0, -327680, 0, 0, -327678, 0, 0, -327671, 0, 0, -327670, 0, 0, -327669, 0, 0, -327663, 0, 0, -327662, 0, 0, -327661, 0, 0, -327660, 0, 0, -327659, 0, 0, -327655, 0, 0, -327654, 0, 0, -327653, 0, 0, -327652, 0, 0, -327651, 0, 0, -262144, 0, 0, -262142, 0, 0, -262135, 0, 0, -262133, 0, 0, -262132, 0, 0, -262131, 0, 0, -262130, 0, 0, -262129, 0, 0, -262128, 0, 0, -262127, 0, 0, -262123, 0, 0, -262122, 0, 0, -262121, 0, 0, -262120, 0, 0, -262119, 0, 0, -262115, 0, 0, -196608, 0, 0, -196606, 0, 0, -196599, 0, 0, -196579, 0, 0, -65545, 0, 0, -65544, 0, 0, -65543, 0, 0, -65542, 0, 0, -65541, 0, 0, -65540, 0, 0, -65539, 0, 0, -65538, 0, 0, -65537, 0, 0, -131072, 0, 0, -131070, 0, 0, -131063, 0, 0, -131061, 0, 0, -131060, 0, 0, -131059, 0, 0, -131058, 0, 0, -131057, 0, 0, -131056, 0, 0, -131055, 0, 0, -131054, 0, 0, -131053, 0, 0, -131052, 0, 0, -131051, 0, 0, -131050, 0, 0, -131049, 0, 0, -131048, 0, 0, -131047, 0, 0, -131043, 0, 0, -9, 0, 0, -65534, 0, 0, -65527, 0, 0, -65525, 0, 0, -65511, 0, 0, -65510, 0, 0, -65509, 0, 0, -65508, 0, 0, -65507, 0, 0, 65527, 0, 0, 65528, 0, 0, 65529, 0, 0, 65530, 0, 0, 65531, 0, 0, 65532, 0, 0, 65533, 0, 0, 65534, 0, 0, 65535, 0, 0, 0, 0, 0, 2, 0, 0, 9, 0, 0, 11, 0, 0, 65536, 0, 0, 65538, 0, 0, 65545, 0, 0, 65547, 0, 0, 131072, 0, 0, 131074, 0, 0, 131075, 0, 0, 131076, 0, 0, 131077, 0, 0, 131078, 0, 0, 131079, 0, 0, 131080, 0, 0, 131081, 0, 0, 131083, 0, 0, 196608, 0, 0, 196619, 0, 0, 262144, 0, 0, 262145, 0, 0, 262146, 0, 0, 262147, 0, 0, 262148, 0, 0, 262149, 0, 0, 262150, 0, 0, 262151, 0, 0, 262152, 0, 0, 262153, 0, 0, 262154, 0, 0, 262155, 0, 0 )
-_sections_unfolded = [ "Cell" ]
 
-[node name="Player" parent="." index="1" instance=ExtResource( 2 )]
-
+[node name="Player" parent="." instance=ExtResource( 2 )]
 position = Vector2( -120, -8 )
 rotation = -1.5708
-_sections_unfolded = [ "Collision", "Transform", "collision" ]
 
-[node name="NPC" parent="." index="2" instance=ExtResource( 3 )]
-
+[node name="NPC" parent="." instance=ExtResource( 3 )]
 position = Vector2( 88, 56 )
 id = "h_zombie"
 
-[node name="NPC2" parent="." index="3" instance=ExtResource( 3 )]
-
+[node name="NPC2" parent="." instance=ExtResource( 3 )]
 position = Vector2( 104, 56 )
 id = "h_zombie"
 
-[node name="NPC3" parent="." index="4" instance=ExtResource( 3 )]
-
+[node name="NPC3" parent="." instance=ExtResource( 3 )]
 position = Vector2( 120, 56 )
 id = "h_zombie"
 
-[node name="Boss" parent="." index="5" instance=ExtResource( 3 )]
-
+[node name="Boss" parent="." instance=ExtResource( 3 )]
 position = Vector2( 392, -40 )
 id = "h_large_zombie"
 
-[node name="LootBag" parent="." index="6" instance=ExtResource( 4 )]
-
+[node name="LootBag" parent="." instance=ExtResource( 4 )]
 position = Vector2( 72, -120 )
 content1 = "w_iron_sword"
 content2 = "a_leather_vest"
 
-[node name="LootBag2" parent="." index="7" instance=ExtResource( 4 )]
-
+[node name="LootBag2" parent="." instance=ExtResource( 4 )]
 position = Vector2( 168, -56 )
 content1 = "p_hp_basic_potion"
 
-[node name="Ladder" parent="." index="8" instance=ExtResource( 5 )]
-
+[node name="Ladder" parent="." instance=ExtResource( 5 )]
 position = Vector2( 440, -40 )
-load_next_on_use = true
 
-[node name="StoneGate" parent="." index="9" instance=ExtResource( 6 )]
-
+[node name="StoneGate" parent="." instance=ExtResource( 6 )]
 position = Vector2( 344, -40 )
-closed = true
 
-[node name="MusicPuzzle" parent="StoneGate" index="2" instance=ExtResource( 7 )]
-
-editor/display_folded = true
+[node name="MusicPuzzle" parent="StoneGate" instance=ExtResource( 7 )]
 music_seq_ind = 1
 
-[node name="PressurePad" parent="StoneGate/MusicPuzzle" index="2" instance=ExtResource( 8 )]
-
+[node name="PressurePad" parent="StoneGate/MusicPuzzle" instance=ExtResource( 8 )]
 position = Vector2( -48, -16 )
 id = 0
 
-[node name="PressurePad2" parent="StoneGate/MusicPuzzle" index="3" instance=ExtResource( 8 )]
-
+[node name="PressurePad2" parent="StoneGate/MusicPuzzle" instance=ExtResource( 8 )]
 position = Vector2( -32, -16 )
 id = 1
 
-[node name="PressurePad3" parent="StoneGate/MusicPuzzle" index="4" instance=ExtResource( 8 )]
-
+[node name="PressurePad3" parent="StoneGate/MusicPuzzle" instance=ExtResource( 8 )]
 position = Vector2( -16, -16 )
 id = 2
 
-[node name="JournalLogTrigger" parent="." index="10" instance=ExtResource( 9 )]
-
+[node name="JournalLogTrigger" parent="." instance=ExtResource( 9 )]
 position = Vector2( 280, -40 )
 stream = ExtResource( 10 )
-play_on_start = false
 
-[node name="JournalLogTrigger2" parent="." index="11" instance=ExtResource( 9 )]
-
+[node name="JournalLogTrigger2" parent="." instance=ExtResource( 9 )]
 position = Vector2( 40, -120 )
 stream = ExtResource( 11 )
-play_on_start = false
 
-[node name="JournalLogTrigger3" parent="." index="12" instance=ExtResource( 9 )]
-
+[node name="JournalLogTrigger3" parent="." instance=ExtResource( 9 )]
 position = Vector2( 408, -40 )
 stream = ExtResource( 12 )
-play_on_start = false
 
-[node name="JournalLogTrigger4" parent="." index="13" instance=ExtResource( 9 )]
-
+[node name="JournalLogTrigger4" parent="." instance=ExtResource( 9 )]
 position = Vector2( 312, -56 )
 scale = Vector2( 2.5, 1 )
 stream = ExtResource( 13 )
-play_on_start = false
-
 [connection signal="completed" from="StoneGate/MusicPuzzle" to="StoneGate" method="open"]
-
-

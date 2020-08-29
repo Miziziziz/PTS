@@ -24,6 +24,7 @@ var played_prep = false
 
 var time_since_atk = 0
 
+signal attacked
 
 func _process(delta):
 	if Input.is_action_pressed("attack"):
@@ -33,6 +34,7 @@ func _process(delta):
 			played_prep = true
 		time_since_atk += delta
 		attempt_attack()
+		emit_signal("attacked")
 	else:
 		if prep_sound != null and audio_player.stream == prep_sound:
 			audio_player.stop()
@@ -100,6 +102,7 @@ func attempt_attack():
 		audio_player.stream = load(snd_to_play)
 		audio_player.play()
 		played_prep = false
+		
 
 func cast_spell(var pos):
 	var spell = explosion.instance()

@@ -7,10 +7,7 @@ path="res://.import/plate.wav-8feb6182d27a647bf53440579064573e.sample"
 [deps]
 
 source_file="res://audio/plate.wav"
-source_md5="8350f65b8da57b9f24aeb14f186788c6"
-
 dest_files=[ "res://.import/plate.wav-8feb6182d27a647bf53440579064573e.sample" ]
-dest_md5="bb9cf6cf1f066674c4c5fe1b1be3076a"
 
 [params]
 

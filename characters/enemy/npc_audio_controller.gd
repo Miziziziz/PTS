@@ -21,9 +21,9 @@ func _process(delta):
 	time_since_last_play += delta
 	if time_since_last_play > idle_play_rate:
 		time_since_last_play -= idle_play_rate
-		if state == IDLE:
+		if state == states.IDLE:
 			play_rnd_sound(sounds["idle"])
-		elif state == CHASE:
+		elif state == states.CHASE:
 			play_rnd_sound(sounds["chase"])
 
 func alert():

@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://graphics/tile_0051.png" type="Texture" id=1]
+
+[node name="Chest" type="Sprite3D"]
+offset = Vector2( 0, 4 )
+pixel_size = 0.1
+billboard = 1
+texture = ExtResource( 1 )

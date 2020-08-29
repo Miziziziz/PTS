@@ -7,10 +7,7 @@ path="res://.import/ancient_corpse.wav-6f8f88edafc1fcaa2e6fc6e549de3c9b.sample"
 [deps]
 
 source_file="res://audio/journal/ancient_corpse.wav"
-source_md5="8b3890f36bdadc715d1dc5bff45e398b"
-
 dest_files=[ "res://.import/ancient_corpse.wav-6f8f88edafc1fcaa2e6fc6e549de3c9b.sample" ]
-dest_md5="7075ef22645ac20a650e45fb56ae0996"
 
 [params]
 

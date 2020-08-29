@@ -19,7 +19,6 @@ var rot_speed = 0.03
 var mouse_sens = 0.1
 
 func _ready():
-	add_to_group("player")
 	mover.kine_body = self
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 	set_meta("type", "player")
@@ -28,6 +27,7 @@ func _ready():
 	mover.tile_map = t_map
 	
 	load_char()
+	A3dView.enable_3d_view()
 
 
 func _input(ev):

@@ -7,10 +7,7 @@ path="res://.import/die0.wav-aeddb973951bdcd42ff9ca8dc4e8472a.sample"
 [deps]
 
 source_file="res://audio/player/injury/die0.wav"
-source_md5="f8ca99b090542a26f7845a0cd35bca43"
-
 dest_files=[ "res://.import/die0.wav-aeddb973951bdcd42ff9ca8dc4e8472a.sample" ]
-dest_md5="bd94e4a4239180a3816df9518dd0f073"
 
 [params]
 

@@ -7,10 +7,7 @@ path="res://.import/sword_swing.wav-44b1ea69353fc8ffde1c5d01c4edfed9.sample"
 [deps]
 
 source_file="res://audio/weapons/sword_swing.wav"
-source_md5="f33aa9c2cd6eabd5ad3de5cfb0ac655f"
-
 dest_files=[ "res://.import/sword_swing.wav-44b1ea69353fc8ffde1c5d01c4edfed9.sample" ]
-dest_md5="ec16a362cd10cddd0b67317a4d045e24"
 
 [params]
 

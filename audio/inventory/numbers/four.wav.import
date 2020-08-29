@@ -7,10 +7,7 @@ path="res://.import/four.wav-36a86b5af359b1e722a0933b4696791e.sample"
 [deps]
 
 source_file="res://audio/inventory/numbers/four.wav"
-source_md5="a0796c8faadf15be745d55e30130fed7"
-
 dest_files=[ "res://.import/four.wav-36a86b5af359b1e722a0933b4696791e.sample" ]
-dest_md5="a49cf12c4497c1f3a81fe64d013141ea"
 
 [params]
 

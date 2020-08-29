@@ -7,10 +7,7 @@ path="res://.import/melee.wav-fbe1566feb6baa2819ee92a482168d4f.sample"
 [deps]
 
 source_file="res://audio/inventory/stats/melee.wav"
-source_md5="5ac6424719b601e31e43af71b40ee6a5"
-
 dest_files=[ "res://.import/melee.wav-fbe1566feb6baa2819ee92a482168d4f.sample" ]
-dest_md5="7d0559ee6c08738abbb4c3cc79c06fa8"
 
 [params]
 

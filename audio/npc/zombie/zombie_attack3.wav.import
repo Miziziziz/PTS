@@ -7,10 +7,7 @@ path="res://.import/zombie_attack3.wav-2f3142481e0fff860dbeb1aadbf32c42.sample"
 [deps]
 
 source_file="res://audio/npc/zombie/zombie_attack3.wav"
-source_md5="c8a24e422a4049228e12ca387c18c790"
-
 dest_files=[ "res://.import/zombie_attack3.wav-2f3142481e0fff860dbeb1aadbf32c42.sample" ]
-dest_md5="c8051f74b6cab9037d62c83d984db968"
 
 [params]
 

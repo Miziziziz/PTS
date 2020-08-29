@@ -7,10 +7,7 @@ path="res://.import/overflow.wav-a5b33571bf7b483178c4e0f0f3e83059.sample"
 [deps]
 
 source_file="res://audio/inventory/numbers/overflow.wav"
-source_md5="57e0e360d41984d2114be05a6bc4f385"
-
 dest_files=[ "res://.import/overflow.wav-a5b33571bf7b483178c4e0f0f3e83059.sample" ]
-dest_md5="23e7c602d1df83b31496867d7633ef3a"
 
 [params]
 

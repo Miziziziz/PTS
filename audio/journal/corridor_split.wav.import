@@ -7,10 +7,7 @@ path="res://.import/corridor_split.wav-043ec85e25ee17b7c1ea9ea76e04a3fb.sample"
 [deps]
 
 source_file="res://audio/journal/corridor_split.wav"
-source_md5="6e9c10b8758571fe5b0baa3fb7e0e9e3"
-
 dest_files=[ "res://.import/corridor_split.wav-043ec85e25ee17b7c1ea9ea76e04a3fb.sample" ]
-dest_md5="b12748d12989b888ab685330cbd26ee0"
 
 [params]
 

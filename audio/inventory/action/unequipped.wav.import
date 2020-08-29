@@ -7,10 +7,7 @@ path="res://.import/unequipped.wav-752ad9aadc1dbad3a81387dada24cec9.sample"
 [deps]
 
 source_file="res://audio/inventory/action/unequipped.wav"
-source_md5="21cf32fffb3c956b08e562109af76c63"
-
 dest_files=[ "res://.import/unequipped.wav-752ad9aadc1dbad3a81387dada24cec9.sample" ]
-dest_md5="f1ebb6067cb5a286034d2fb52317d2ba"
 
 [params]
 

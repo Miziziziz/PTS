@@ -7,10 +7,7 @@ path="res://.import/south.wav-39c3704923eb841289e84c7967f3f359.sample"
 [deps]
 
 source_file="res://audio/directions/south.wav"
-source_md5="916337e4ba977d533238cc35cb18eece"
-
 dest_files=[ "res://.import/south.wav-39c3704923eb841289e84c7967f3f359.sample" ]
-dest_md5="1f850c4a4f35d6127020b1c4b73fccf8"
 
 [params]
 

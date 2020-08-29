@@ -7,10 +7,7 @@ path="res://.import/twenty.wav-0ec66331a015f100969dd5a024374735.sample"
 [deps]
 
 source_file="res://audio/inventory/numbers/twenty.wav"
-source_md5="f4bbd37a32e39cdce41d004c2d1a35d2"
-
 dest_files=[ "res://.import/twenty.wav-0ec66331a015f100969dd5a024374735.sample" ]
-dest_md5="e08fecf11c613e09af2e96f51e5a3f84"
 
 [params]
 

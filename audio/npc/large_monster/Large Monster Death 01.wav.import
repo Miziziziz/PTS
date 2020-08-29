@@ -7,10 +7,7 @@ path="res://.import/Large Monster Death 01.wav-cc25373c77c5a1143940546001efcf98.
 [deps]
 
 source_file="res://audio/npc/large_monster/Large Monster Death 01.wav"
-source_md5="3e6bdbd0420da5947538ccb9fdd60f37"
-
 dest_files=[ "res://.import/Large Monster Death 01.wav-cc25373c77c5a1143940546001efcf98.sample" ]
-dest_md5="e229a12d5d971011c6d028d1b826bace"
 
 [params]
 

@@ -7,10 +7,7 @@ path="res://.import/first_evil_vanq.wav-d7a49355a66c7e636e1122850e6a3480.sample"
 [deps]
 
 source_file="res://audio/journal/first_evil_vanq.wav"
-source_md5="6bde016ba6ece76b1c07f14e7d9ba100"
-
 dest_files=[ "res://.import/first_evil_vanq.wav-d7a49355a66c7e636e1122850e6a3480.sample" ]
-dest_md5="4f04a7b2729ee907780dde34f3eae65a"
 
 [params]
 

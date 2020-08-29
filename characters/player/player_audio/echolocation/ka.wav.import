@@ -7,10 +7,7 @@ path="res://.import/ka.wav-17c80feb678412b0cfa030759de7493f.sample"
 [deps]
 
 source_file="res://characters/player/player_audio/echolocation/ka.wav"
-source_md5="630623eeba138940b7ef0fb69fdff520"
-
 dest_files=[ "res://.import/ka.wav-17c80feb678412b0cfa030759de7493f.sample" ]
-dest_md5="8574a7fd06fd8e89a7f4ef4b9e35b386"
 
 [params]
 

@@ -7,10 +7,7 @@ path="res://.import/pressure_plate_sink.wav-dbe0972ad1903d33c46b5fcc0d8e101a.sam
 [deps]
 
 source_file="res://audio/journal/pressure_plate_sink.wav"
-source_md5="1a0f0a24b32e1fedf1a21c3ec6d4213e"
-
 dest_files=[ "res://.import/pressure_plate_sink.wav-dbe0972ad1903d33c46b5fcc0d8e101a.sample" ]
-dest_md5="0ddcd408d08807085a9bbc77fc29cbe6"
 
 [params]
 

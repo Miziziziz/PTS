@@ -7,10 +7,7 @@ path="res://.import/bow_fire.wav-0d0d4155f7596d2e59f3a9196b697ed9.sample"
 [deps]
 
 source_file="res://audio/weapons/bow_fire.wav"
-source_md5="f42dd705fa071414ea182decd7ebd2c4"
-
 dest_files=[ "res://.import/bow_fire.wav-0d0d4155f7596d2e59f3a9196b697ed9.sample" ]
-dest_md5="30e9b18c7bfa513cdc0f0482355d98ae"
 
 [params]
 

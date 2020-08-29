@@ -7,10 +7,7 @@ path="res://.import/cast.wav-0d79cb4443cdbe9226fe87706b87653b.sample"
 [deps]
 
 source_file="res://audio/spells/cast.wav"
-source_md5="0502bf4e41d1e7dddcd6fdec8a95a39e"
-
 dest_files=[ "res://.import/cast.wav-0d79cb4443cdbe9226fe87706b87653b.sample" ]
-dest_md5="01ab487390f71e1a10860021269f6f2f"
 
 [params]
 

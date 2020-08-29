@@ -3,20 +3,21 @@
 importer="texture"
 type="StreamTexture"
 path="res://.import/pts_architecture.png-47b6dbc29c2445f5129fda86ef7ac947.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
 source_file="res://pts_architecture.png"
-source_md5="2790f7492cb50d5d32bb9f0f698a1a6e"
-
 dest_files=[ "res://.import/pts_architecture.png-47b6dbc29c2445f5129fda86ef7ac947.stex" ]
-dest_md5="5b600c5ae6a88b5cbc1eb3496184db01"
 
 [params]
 
 compress/mode=0
 compress/lossy_quality=0.7
 compress/hdr_mode=0
+compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
 flags/filter=true
@@ -26,6 +27,7 @@ flags/srgb=2
 process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
+process/invert_color=false
 stream=false
 size_limit=0
 detect_3d=true

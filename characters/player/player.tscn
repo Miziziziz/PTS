@@ -18,252 +18,134 @@
 
 [sub_resource type="AudioStreamSample" id=1]
 
-format = 0
-loop_mode = 0
-loop_begin = 0
-loop_end = 0
-mix_rate = 44100
-stereo = false
-data = PoolByteArray(  )
-
 [sub_resource type="CircleShape2D" id=2]
-
-custom_solver_bias = 0.0
 radius = 7.0
 
 [sub_resource type="CircleShape2D" id=3]
+radius = 8.0
 
-custom_solver_bias = 0.0
-radius = 40.0
-
-[node name="Player" type="KinematicBody2D" index="0"]
-
-input_pickable = false
+[node name="Player" type="KinematicBody2D" groups=[
+"player",
+]]
 collision_layer = 3
 collision_mask = 2
-collision/safe_margin = 0.08
 script = ExtResource( 1 )
-_sections_unfolded = [ "Collision", "collision" ]
 
-[node name="Echolocator" type="Node2D" parent="." index="0"]
-
-editor/display_folded = true
+[node name="Echolocator" type="Node2D" parent="."]
 script = ExtResource( 2 )
 
-[node name="RayCast2D" type="RayCast2D" parent="Echolocator" index="0"]
-
+[node name="RayCast2D" type="RayCast2D" parent="Echolocator"]
 enabled = true
-exclude_parent = true
 cast_to = Vector2( 0, 480 )
 collision_mask = 3
+collide_with_areas = true
 
-[node name="RayCastLoot" type="RayCast2D" parent="Echolocator" index="1"]
-
+[node name="RayCastLoot" type="RayCast2D" parent="Echolocator"]
 enabled = true
-exclude_parent = true
 cast_to = Vector2( 0, 480 )
 collision_mask = 4
+collide_with_areas = true
 
-[node name="ClickPlayer" type="AudioStreamPlayer" parent="Echolocator" index="2"]
-
+[node name="ClickPlayer" type="AudioStreamPlayer" parent="Echolocator"]
 stream = ExtResource( 3 )
-volume_db = 0.0
-autoplay = false
-mix_target = 0
-bus = "Master"
 
-[node name="Compass" type="Node2D" parent="." index="1"]
-
-editor/display_folded = true
+[node name="Compass" type="Node2D" parent="."]
 script = ExtResource( 4 )
 
-[node name="HeartBeatPlayer" type="AudioStreamPlayer" parent="Compass" index="0"]
-
+[node name="HeartBeatPlayer" type="AudioStreamPlayer" parent="Compass"]
 stream = ExtResource( 5 )
-volume_db = 0.0
 autoplay = true
-mix_target = 0
 bus = "Compass"
 
-[node name="Mover" type="Node2D" parent="." index="2"]
-
-editor/display_folded = true
+[node name="Mover" type="Node2D" parent="."]
 script = ExtResource( 6 )
 
-[node name="MoveRay" type="RayCast2D" parent="Mover" index="0"]
-
+[node name="MoveRay" type="RayCast2D" parent="Mover"]
 enabled = true
-exclude_parent = true
 cast_to = Vector2( 0, 2 )
 collision_mask = 3
+collide_with_areas = true
 
-[node name="StepPlayer" type="AudioStreamPlayer" parent="Mover" index="1"]
-
+[node name="StepPlayer" type="AudioStreamPlayer" parent="Mover"]
 stream = SubResource( 1 )
-volume_db = 0.0
-autoplay = false
-mix_target = 0
 bus = "Footsteps"
 
-[node name="Rotator" type="Node2D" parent="." index="3"]
-
-editor/display_folded = true
+[node name="Rotator" type="Node2D" parent="."]
 script = ExtResource( 7 )
 
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="Rotator" index="0"]
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="Rotator"]
 
-stream = null
-volume_db = 0.0
-autoplay = false
-mix_target = 0
-bus = "Master"
+[node name="SideAwareness" type="Node2D" parent="."]
 
-[node name="SideAwareness" type="Node2D" parent="." index="4"]
-
-editor/display_folded = true
-
-[node name="LeftEar" type="RayCast2D" parent="SideAwareness" index="0"]
-
-editor/display_folded = true
+[node name="LeftEar" type="RayCast2D" parent="SideAwareness"]
 rotation = -1.5708
 enabled = true
-exclude_parent = true
 cast_to = Vector2( 0, 16 )
 collision_mask = 3
+collide_with_areas = true
 script = ExtResource( 8 )
-_sections_unfolded = [ "Transform" ]
 
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="SideAwareness/LeftEar" index="0"]
-
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="SideAwareness/LeftEar"]
 stream = ExtResource( 9 )
-volume_db = 0.0
-autoplay = false
-mix_target = 0
 bus = "LeftEar"
 
-[node name="RightEar" type="RayCast2D" parent="SideAwareness" index="1"]
-
-editor/display_folded = true
+[node name="RightEar" type="RayCast2D" parent="SideAwareness"]
 rotation = 1.5708
 enabled = true
-exclude_parent = true
 cast_to = Vector2( 0, 16 )
 collision_mask = 3
+collide_with_areas = true
 script = ExtResource( 8 )
-_sections_unfolded = [ "Transform" ]
 
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="SideAwareness/RightEar" index="0"]
-
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="SideAwareness/RightEar"]
 stream = ExtResource( 9 )
-volume_db = 0.0
-autoplay = false
-mix_target = 0
 bus = "RightEar"
 
-[node name="CombatManager" type="RayCast2D" parent="." index="5"]
-
-editor/display_folded = true
+[node name="CombatManager" type="RayCast2D" parent="."]
 enabled = true
-exclude_parent = true
 cast_to = Vector2( 0, 480 )
-collision_mask = 1
+collide_with_areas = true
 script = ExtResource( 10 )
 
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="CombatManager" index="0"]
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="CombatManager"]
 
-stream = null
-volume_db = 0.0
-autoplay = false
-mix_target = 0
-bus = "Master"
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="." index="6"]
-
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource( 2 )
 
-[node name="CollisionShape2D2" type="CollisionShape2D" parent="." index="7"]
-
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
 shape = SubResource( 2 )
 
-[node name="Health" type="Node2D" parent="." index="8"]
-
-editor/display_folded = true
+[node name="Health" type="Node2D" parent="."]
 script = ExtResource( 11 )
 
-[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="Health" index="0"]
-
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="Health"]
 stream = ExtResource( 12 )
-volume_db = 0.0
-autoplay = false
-mix_target = 0
 bus = "HealthScaler"
 
-[node name="AudioStreamPlayer2" type="AudioStreamPlayer" parent="Health" index="1"]
-
+[node name="AudioStreamPlayer2" type="AudioStreamPlayer" parent="Health"]
 stream = ExtResource( 13 )
 volume_db = -20.0
-autoplay = false
-mix_target = 0
 bus = "HealthCeiling"
 
-[node name="Inventory" parent="." index="9" instance=ExtResource( 14 )]
-
+[node name="Inventory" parent="." instance=ExtResource( 14 )]
 pause_mode = 2
-_sections_unfolded = [ "Pause" ]
 
-[node name="Interactor" type="Area2D" parent="." index="10"]
-
+[node name="Interactor" type="Area2D" parent="."]
 pause_mode = 2
-editor/display_folded = true
-input_pickable = true
-gravity_vec = Vector2( 0, 1 )
-gravity = 98.0
-linear_damp = 0.1
-angular_damp = 1.0
-collision_layer = 4
-collision_mask = 4
-audio_bus_override = false
-audio_bus_name = "Master"
+collision_layer = 0
+collision_mask = 7
 script = ExtResource( 15 )
-_sections_unfolded = [ "Collision", "Pause" ]
 
-[node name="CollisionShape2D" type="CollisionShape2D" parent="Interactor" index="0"]
-
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Interactor"]
 shape = SubResource( 3 )
-_sections_unfolded = [ "Pause" ]
 
-[node name="RayCast2D" type="RayCast2D" parent="Interactor" index="1"]
-
+[node name="RayCast2D" type="RayCast2D" parent="Interactor"]
 enabled = true
-exclude_parent = true
 cast_to = Vector2( 0, 33 )
 collision_mask = 7
+collide_with_areas = true
 
-[node name="Camera2D" type="Camera2D" parent="." index="11"]
-
+[node name="Camera2D" type="Camera2D" parent="."]
 rotation = 3.14159
-anchor_mode = 1
 rotating = true
 current = true
-zoom = Vector2( 1, 1 )
-limit_left = -10000000
-limit_top = -10000000
-limit_right = 10000000
-limit_bottom = 10000000
-limit_smoothed = false
-drag_margin_h_enabled = false
-drag_margin_v_enabled = false
-smoothing_enabled = false
-smoothing_speed = 5.0
-offset_v = 0.0
-offset_h = 0.0
-drag_margin_left = 0.2
-drag_margin_top = 0.2
-drag_margin_right = 0.2
-drag_margin_bottom = 0.2
-editor_draw_screen = true
-editor_draw_limits = false
-editor_draw_drag_margin = false
-_sections_unfolded = [ "Transform" ]
-
-

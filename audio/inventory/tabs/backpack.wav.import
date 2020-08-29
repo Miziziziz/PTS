@@ -7,10 +7,7 @@ path="res://.import/backpack.wav-a8f0a83fc33c43de2a346fbaaf7ce743.sample"
 [deps]
 
 source_file="res://audio/inventory/tabs/backpack.wav"
-source_md5="19715e255ed81f68caf22c506dfd026a"
-
 dest_files=[ "res://.import/backpack.wav-a8f0a83fc33c43de2a346fbaaf7ce743.sample" ]
-dest_md5="b1cbb5fb867572476d4b60c5a99db9ec"
 
 [params]
 

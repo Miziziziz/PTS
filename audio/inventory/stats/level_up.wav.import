@@ -7,10 +7,7 @@ path="res://.import/level_up.wav-fe553c89ca8108f87b873004355eb701.sample"
 [deps]
 
 source_file="res://audio/inventory/stats/level_up.wav"
-source_md5="40c89c09b4257e2ebc4020bba0cc9cd4"
-
 dest_files=[ "res://.import/level_up.wav-fe553c89ca8108f87b873004355eb701.sample" ]
-dest_md5="6eb86eb84eb115593d93264a3a3c5c4c"
 
 [params]
 

@@ -7,10 +7,7 @@ path="res://.import/attack_rate.wav-4d62fd7e63d0dc06d5be25001ccc5792.sample"
 [deps]
 
 source_file="res://audio/inventory/description/attack_rate.wav"
-source_md5="4bd5c41a04aff45962aad6b610644a86"
-
 dest_files=[ "res://.import/attack_rate.wav-4d62fd7e63d0dc06d5be25001ccc5792.sample" ]
-dest_md5="fa6a1c7d289885b60c2abb9e831dfbc5"
 
 [params]
 

@@ -7,10 +7,7 @@ path="res://.import/quiet_chime_b3.wav-064edb302bcb5f889e4b828516174eb2.sample"
 [deps]
 
 source_file="res://puzzles/music_puzzle/quiet_chime_b3.wav"
-source_md5="bcadbaeb8736ed403411a6ff7a8c66b4"
-
 dest_files=[ "res://.import/quiet_chime_b3.wav-064edb302bcb5f889e4b828516174eb2.sample" ]
-dest_md5="694cd512d39f23c32b569f1952da1458"
 
 [params]
 

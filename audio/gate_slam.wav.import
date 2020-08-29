@@ -7,10 +7,7 @@ path="res://.import/gate_slam.wav-01af58dd46e34adc6003408cc303754e.sample"
 [deps]
 
 source_file="res://audio/gate_slam.wav"
-source_md5="74075a7e80535378822ebf540234eb28"
-
 dest_files=[ "res://.import/gate_slam.wav-01af58dd46e34adc6003408cc303754e.sample" ]
-dest_md5="fac1842c04a179831a8c1c802e59d7f2"
 
 [params]
 

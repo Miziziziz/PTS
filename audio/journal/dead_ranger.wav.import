@@ -7,10 +7,7 @@ path="res://.import/dead_ranger.wav-dc22bb98e4881340a461c8cb6b24650f.sample"
 [deps]
 
 source_file="res://audio/journal/dead_ranger.wav"
-source_md5="41b74bea286292cd769905104254cc58"
-
 dest_files=[ "res://.import/dead_ranger.wav-dc22bb98e4881340a461c8cb6b24650f.sample" ]
-dest_md5="af59ff30f07996350047691cc2c42c69"
 
 [params]
 

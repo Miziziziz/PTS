@@ -7,10 +7,7 @@ path="res://.import/inventory_expl.wav-433e2c5db091d99ed1a2cd18e7404565.sample"
 [deps]
 
 source_file="res://audio/tutorial/inventory_expl.wav"
-source_md5="c1ebb3ae3e01bed9efe21e4ae9c68dac"
-
 dest_files=[ "res://.import/inventory_expl.wav-433e2c5db091d99ed1a2cd18e7404565.sample" ]
-dest_md5="efc332fe8a546d6d5349e079c472d4c4"
 
 [params]
 

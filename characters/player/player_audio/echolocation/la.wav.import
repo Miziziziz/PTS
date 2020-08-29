@@ -7,10 +7,7 @@ path="res://.import/la.wav-315724223d336b88113a27242be8802e.sample"
 [deps]
 
 source_file="res://characters/player/player_audio/echolocation/la.wav"
-source_md5="da41bd97d9622cc79a988b11e70db080"
-
 dest_files=[ "res://.import/la.wav-315724223d336b88113a27242be8802e.sample" ]
-dest_md5="2702f56fc3d47ed2a7c6ccc6e0c2d28a"
 
 [params]
 

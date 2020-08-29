@@ -7,10 +7,7 @@ path="res://.import/the_beginning.wav-e6291d1f63ab362adec72ec4702f2a3e.sample"
 [deps]
 
 source_file="res://audio/journal/the_beginning.wav"
-source_md5="e791a7666367027729a98a4af0b595a5"
-
 dest_files=[ "res://.import/the_beginning.wav-e6291d1f63ab362adec72ec4702f2a3e.sample" ]
-dest_md5="64fad4a2be708d0d57c32f2494607133"
 
 [params]
 

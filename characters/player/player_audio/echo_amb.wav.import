@@ -7,10 +7,7 @@ path="res://.import/echo_amb.wav-6cbbc9e60499415de00cfb4c3c8ef3ac.sample"
 [deps]
 
 source_file="res://characters/player/player_audio/echo_amb.wav"
-source_md5="9e920e242d932c3c9acd3d65e27e8b9f"
-
 dest_files=[ "res://.import/echo_amb.wav-6cbbc9e60499415de00cfb4c3c8ef3ac.sample" ]
-dest_md5="1d4dc2607f2d6a0d59c49faf93b028e6"
 
 [params]
 

@@ -7,10 +7,7 @@ path="res://.import/faa.wav-075e94b359b1aaba9150e2a19a3d14dc.sample"
 [deps]
 
 source_file="res://audio/player/echolocation/faa.wav"
-source_md5="f9ecbf6634a55347ddc6a72d1e063f39"
-
 dest_files=[ "res://.import/faa.wav-075e94b359b1aaba9150e2a19a3d14dc.sample" ]
-dest_md5="4177f2a8c5fb7fa83bdff33dc577c07c"
 
 [params]
 

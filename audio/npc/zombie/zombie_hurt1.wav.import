@@ -7,10 +7,7 @@ path="res://.import/zombie_hurt1.wav-192474760558cfec167fa49312119f9a.sample"
 [deps]
 
 source_file="res://audio/npc/zombie/zombie_hurt1.wav"
-source_md5="f1a00e4eb0b5c946c33df7291586abb9"
-
 dest_files=[ "res://.import/zombie_hurt1.wav-192474760558cfec167fa49312119f9a.sample" ]
-dest_md5="26ea6e38bf3ce1a276480d97a0d38647"
 
 [params]
 

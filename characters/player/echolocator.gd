@@ -116,8 +116,8 @@ func _process(delta):
 		if coll != null and coll.has_meta("type"):
 			looking_at_something = true
 
-
-func play_click(var tier, var ray):
+var hit_point = Vector2()
+func play_click(var tier, var ray: RayCast2D):
 	"""
 	if is_loot_in_front_of_enemy():
 		alternate = !alternate
@@ -127,12 +127,13 @@ func play_click(var tier, var ray):
 			ray = loot_ray
 	"""
 	tier = calc_dis_tier(calc_distance(ray))
-	
 	var sound = click_sounds[tier]
-	if (ray.is_colliding()):
+	if ray.is_colliding():
+		hit_point = ray.position
 		var hit_obj = ray.get_collider()
 		if hit_obj.has_meta("type"):
 			var type = hit_obj.get_meta("type")
+			print(type)
 			var att = ""
 			if hit_obj.has_meta("attitude"):
 				att = hit_obj.get_meta("attitude")

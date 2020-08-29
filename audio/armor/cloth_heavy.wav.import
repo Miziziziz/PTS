@@ -7,10 +7,7 @@ path="res://.import/cloth_heavy.wav-0edfa4f192aa5603457af6d2c3b0ca17.sample"
 [deps]
 
 source_file="res://audio/armor/cloth_heavy.wav"
-source_md5="cc9ef9e65b24f74ae7b655a4d85fd915"
-
 dest_files=[ "res://.import/cloth_heavy.wav-0edfa4f192aa5603457af6d2c3b0ca17.sample" ]
-dest_md5="8665163cc5b6e1cfb7da42ec27319134"
 
 [params]
 

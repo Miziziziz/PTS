@@ -7,10 +7,7 @@ path="res://.import/magic.wav-77290c0a864ea19ea6471f6da56cb8a9.sample"
 [deps]
 
 source_file="res://audio/inventory/stats/magic.wav"
-source_md5="1bcedbab126da8ac396c514d14139d0a"
-
 dest_files=[ "res://.import/magic.wav-77290c0a864ea19ea6471f6da56cb8a9.sample" ]
-dest_md5="cdf0823fd7272b031260ed4d304354c7"
 
 [params]
 

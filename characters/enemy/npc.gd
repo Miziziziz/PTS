@@ -31,6 +31,8 @@ var last_saw_player = []
 
 onready var tile_map = get_parent().get_node("TileMap")
 
+signal died
+
 func _ready():
 	init_npc()
 	set_meta("attitude", attitude)
@@ -232,4 +234,5 @@ func deal_damage(var dmg):
 
 func death():
 	get_tree().call_group("stats", "increase_exp", xp)
+	emit_signal("died")
 	queue_free()

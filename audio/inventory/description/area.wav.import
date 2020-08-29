@@ -7,10 +7,7 @@ path="res://.import/area.wav-07486ad7b2b6d53fb5679bcfbc7128d9.sample"
 [deps]
 
 source_file="res://audio/inventory/description/area.wav"
-source_md5="e73d42d76a81773e85d37bea9d1576d1"
-
 dest_files=[ "res://.import/area.wav-07486ad7b2b6d53fb5679bcfbc7128d9.sample" ]
-dest_md5="a9d83bab414aba0781ba94ef23141394"
 
 [params]
 

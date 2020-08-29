@@ -31,7 +31,7 @@ var inv = [
 ]
 
 func _ready():
-	for item in inv[PAPER_DOLL]:
+	for item in inv[Tab.PAPER_DOLL]:
 		var it = db.get_item(item)
 		if it["type"] == "weapon":
 			combat_manager.equip_wep(it)
@@ -119,11 +119,11 @@ func get_current_slot_contents():
 
 #drop item from backpack or paper doll
 func drop_item():
-	if cur_tab != PAPER_DOLL and cur_tab != BACKPACK:
+	if cur_tab != Tab.PAPER_DOLL and cur_tab != Tab.BACKPACK:
 		return
 	
 	if inv[cur_tab].size() > 0:
-		if cur_tab == PAPER_DOLL:
+		if cur_tab == Tab.PAPER_DOLL:
 			var cur_slot = get_current_slot_contents()
 			if cur_slot != null and db.get_item(cur_slot)["type"] == "weapon":
 				combat_manager.unequip_wep()
@@ -138,29 +138,29 @@ func drop_item():
 # equip items from inventory or unequip item from paper doll
 func equip_unequip_item():
 	var cur_slot = get_current_slot_contents()
-	if cur_tab == PAPER_DOLL:
+	if cur_tab == Tab.PAPER_DOLL:
 		audio_controller.unequip_item(cur_slot, true)
 		unequip_from_p_doll()
 		
-	elif cur_tab == BACKPACK:
+	elif cur_tab == Tab.BACKPACK:
 		audio_controller.equip_item(cur_slot, true)
 		equip_from_backpack()
-	elif cur_tab == STATS:
+	elif cur_tab == Tab.STATS:
 		stats_manager.spend_skill_point(inv[cur_tab][cur_row])
 		output_pos()
 		audio_controller.play_stat("skill_points")
 
 func unequip_from_p_doll():
-	if inv[PAPER_DOLL].size() == 0:
+	if inv[Tab.PAPER_DOLL].size() == 0:
 		return
-	var item = inv[PAPER_DOLL][cur_row]
+	var item = inv[Tab.PAPER_DOLL][cur_row]
 	if item != "":
 		if db.get_item(item)["type"] == "weapon":
 			combat_manager.unequip_wep()
 		if db.get_item(item)["type"] == "armor":
 			health.unequip_armor(item)
-		inv[BACKPACK].push_front(item)
-		inv[PAPER_DOLL].remove(cur_row)
+		inv[Tab.BACKPACK].push_front(item)
+		inv[Tab.PAPER_DOLL].remove(cur_row)
 		console.output("unequipped " + item)
 	else:
 		console.output("nothing to unequip")
@@ -169,8 +169,8 @@ func unequip_from_p_doll():
 # if something is already equipped to the same slot 
 # unequip that item and replace it
 func equip_from_backpack():
-	if inv[BACKPACK].size() > 0:
-		var item_id = inv[BACKPACK][cur_row]
+	if inv[Tab.BACKPACK].size() > 0:
+		var item_id = inv[Tab.BACKPACK][cur_row]
 		equip_item(item_id)
 	else:
 		console.output("nothing to equip")
@@ -191,12 +191,12 @@ func equip_item(var item_id):
 		var index = 0
 		var item_to_swap = ""
 		var swap = false
-		for item in inv[PAPER_DOLL]:
+		for item in inv[Tab.PAPER_DOLL]:
 			var cur_item = db.get_item(item)
 			if cur_item["type"] == type and cur_item["slot"] == slot:
 				if type == "armor":
 					health.unequip_armor(item)
-				inv[PAPER_DOLL].erase(item)
+				inv[Tab.PAPER_DOLL].erase(item)
 				swap = true
 				item_to_swap = item
 				#inv[BACKPACK].push_front(item)
@@ -207,10 +207,10 @@ func equip_item(var item_id):
 				audio_controller.unequip_item(item, false)
 				break
 			index += 1
-		inv[PAPER_DOLL].push_front(item_id)
-		inv[BACKPACK].remove(cur_row)
+		inv[Tab.PAPER_DOLL].push_front(item_id)
+		inv[Tab.BACKPACK].remove(cur_row)
 		if swap:
-			inv[BACKPACK].insert(cur_row, item_to_swap)
+			inv[Tab.BACKPACK].insert(cur_row, item_to_swap)
 		console.output(outp + "equipped " + item_id)
 		
 		if type == "weapon":
@@ -226,7 +226,7 @@ func pickup_items(var items_list):
 		insert_into_backpack(item)
 
 func insert_into_backpack(var item_id):
-	inv[BACKPACK].push_front(item_id)
+	inv[Tab.BACKPACK].push_front(item_id)
 
 func output_pos():
 	output_inv_pos(true, false)
@@ -236,13 +236,13 @@ func output_inv_pos(var clear, var play_tab):
 		audio_controller.clear_sound_queue()
 	if play_tab:
 		audio_controller.play_tab_sound(cur_tab)
-	if cur_tab == BACKPACK or cur_tab == PAPER_DOLL:
+	if cur_tab == Tab.BACKPACK or cur_tab == Tab.PAPER_DOLL:
 		audio_controller.play_item_stats(get_current_slot_contents())
-	if cur_tab == STATS:
+	if cur_tab == Tab.STATS:
 		if play_tab:
 			audio_controller.play_stat("skill_points")
 		audio_controller.play_stat(inv[cur_tab][cur_row])
-	if cur_tab == JOURNAL and inv[cur_tab].size() > 0:
+	if cur_tab == Tab.JOURNAL and inv[cur_tab].size() > 0:
 		audio_controller.play_journal_entry(inv[cur_tab][cur_row])
 	var item_str = "empty"
 	if inv[cur_tab].size() > 0:
@@ -258,31 +258,31 @@ func examine_item():
 
 #for tests
 func clear():
-	inv[BACKPACK] = []
-	inv[PAPER_DOLL] = []
+	inv[Tab.BACKPACK] = []
+	inv[Tab.PAPER_DOLL] = []
 
 func get_contents_of_backpack():
-	return inv[BACKPACK]
+	return inv[Tab.BACKPACK]
 
 func get_contents_of_p_doll():
-	return inv[PAPER_DOLL]
+	return inv[Tab.PAPER_DOLL]
 
 func add_entry_to_journal(path):
-	inv[JOURNAL].push_front(path)
+	inv[Tab.JOURNAL].push_front(path)
 	pass
 
 #for loading and saving from/to file
 func save_to_dict():
 	return {
 		"cur_health":health.cur_health,
-		"equipment": inv[PAPER_DOLL], 
-		"backpack":inv[BACKPACK],
+		"equipment": inv[Tab.PAPER_DOLL], 
+		"backpack":inv[Tab.BACKPACK],
 		"stats":stats_manager.save_to_dict(),
-		"journal":inv[JOURNAL]}
+		"journal":inv[Tab.JOURNAL]}
 
 func load_from_dict(var dict):
-	inv[JOURNAL] = dict["journal"]
-	inv[BACKPACK] = dict["backpack"]
+	inv[Tab.JOURNAL] = dict["journal"]
+	inv[Tab.BACKPACK] = dict["backpack"]
 	stats_manager.load_from_dict(dict["stats"])
 	for item in dict["equipment"]:
 		var it = db.get_item(item)
@@ -290,5 +290,5 @@ func load_from_dict(var dict):
 			combat_manager.equip_wep(it)
 		if it["type"] == "armor":
 			health.equip_armor(item, it["protection"])
-	inv[PAPER_DOLL] = dict["equipment"]
+	inv[Tab.PAPER_DOLL] = dict["equipment"]
 	health.cur_health = dict["cur_health"]

@@ -7,10 +7,7 @@ path="res://.import/echolocation.wav-8e27ba36d1cca2b135af649941004e24.sample"
 [deps]
 
 source_file="res://audio/inventory/journal/echolocation.wav"
-source_md5="27facfbfd1f47866851096e7b2246b78"
-
 dest_files=[ "res://.import/echolocation.wav-8e27ba36d1cca2b135af649941004e24.sample" ]
-dest_md5="f0ed03cbed40ff0fb3449dd128561c24"
 
 [params]
 

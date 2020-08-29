@@ -7,10 +7,7 @@ path="res://.import/echo_expl.wav-d29d32c5aaa212d0b099dcac15d8bd7d.sample"
 [deps]
 
 source_file="res://audio/tutorial/echo_expl.wav"
-source_md5="c6709ffebf5c9ced348652cf5853872e"
-
 dest_files=[ "res://.import/echo_expl.wav-d29d32c5aaa212d0b099dcac15d8bd7d.sample" ]
-dest_md5="d19e439ac74b347d79e35e14a9fc51b5"
 
 [params]
 

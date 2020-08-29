@@ -7,10 +7,7 @@ path="res://.import/credits.wav-ae97c301cd1de6ea26cfdbb8963296b7.sample"
 [deps]
 
 source_file="res://audio/main_menu/credits.wav"
-source_md5="dd6aa23252aa243523d1afb0627bcba3"
-
 dest_files=[ "res://.import/credits.wav-ae97c301cd1de6ea26cfdbb8963296b7.sample" ]
-dest_md5="7faead5c5e8c867496262cfa52dec5a0"
 
 [params]
 

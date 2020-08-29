@@ -1,4 +1,4 @@
-extends Node2D
+extends Control
 
 onready var lm = get_node("/root/levelmanager")
 onready var audio_player = $AudioStreamPlayer
@@ -14,6 +14,7 @@ var credits_stream = "credits.wav"
 var rq_confirm = false
 
 func _ready():
+	A3dView.disable_3d_view()
 	get_tree().paused = false
 	reset_audio_pl()
 

@@ -7,10 +7,7 @@ path="res://.import/metal_clash.wav-801adae57525e2672ee846f6a2a7a36e.sample"
 [deps]
 
 source_file="res://audio/inventory/metal_clash.wav"
-source_md5="3e4185d55ab6570b037f929a65f5aae4"
-
 dest_files=[ "res://.import/metal_clash.wav-801adae57525e2672ee846f6a2a7a36e.sample" ]
-dest_md5="86dc81ae6f8e1c4ad1e77834a4588b81"
 
 [params]
 

@@ -7,10 +7,7 @@ path="res://.import/punch.wav-7703c03b3e699c45b865f17051b0dfa5.sample"
 [deps]
 
 source_file="res://audio/weapons/punch.wav"
-source_md5="a6d565a36af72f9840c1d4a97f16f7f2"
-
 dest_files=[ "res://.import/punch.wav-7703c03b3e699c45b865f17051b0dfa5.sample" ]
-dest_md5="cbc37d797744ede2ceb418e971d1df70"
 
 [params]
 

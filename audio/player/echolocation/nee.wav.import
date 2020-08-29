@@ -7,10 +7,7 @@ path="res://.import/nee.wav-23c2425ab54bb616751bfbe3c4883416.sample"
 [deps]
 
 source_file="res://audio/player/echolocation/nee.wav"
-source_md5="4b60546c5f190e246e5f5d659f533892"
-
 dest_files=[ "res://.import/nee.wav-23c2425ab54bb616751bfbe3c4883416.sample" ]
-dest_md5="58b60f1ff6575329347787dca3110466"
 
 [params]
 

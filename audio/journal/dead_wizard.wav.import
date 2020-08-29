@@ -7,10 +7,7 @@ path="res://.import/dead_wizard.wav-c79422abad7c592d9ba74df21ab43fe1.sample"
 [deps]
 
 source_file="res://audio/journal/dead_wizard.wav"
-source_md5="e4a8d7f4e6fd7a7d2aafd86ac80abc02"
-
 dest_files=[ "res://.import/dead_wizard.wav-c79422abad7c592d9ba74df21ab43fe1.sample" ]
-dest_md5="a3b132b524db5029d10aa0eede3ea45f"
 
 [params]
 

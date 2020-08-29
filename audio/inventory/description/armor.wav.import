@@ -7,10 +7,7 @@ path="res://.import/armor.wav-72edadd656f6f776778452d1bb877f53.sample"
 [deps]
 
 source_file="res://audio/inventory/description/armor.wav"
-source_md5="fde607fc168b8a5e524cf9fadf428405"
-
 dest_files=[ "res://.import/armor.wav-72edadd656f6f776778452d1bb877f53.sample" ]
-dest_md5="c38fc202c000e3a2a3ff51e837387ec5"
 
 [params]
 

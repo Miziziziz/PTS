@@ -7,10 +7,7 @@ path="res://.import/fireball.wav-74bcdfe8db71f0e7814479dd7d79fab8.sample"
 [deps]
 
 source_file="res://audio/spells/fireball.wav"
-source_md5="fd5de652278d7f3fecd8d7378c456ac5"
-
 dest_files=[ "res://.import/fireball.wav-74bcdfe8db71f0e7814479dd7d79fab8.sample" ]
-dest_md5="907eb3f4c846a2d509a7040b699451f3"
 
 [params]
 

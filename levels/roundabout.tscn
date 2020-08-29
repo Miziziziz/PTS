@@ -18,158 +18,100 @@
 
 [node name="World" type="Node2D"]
 
-[node name="TileMap" type="TileMap" parent="." index="0"]
-
-mode = 0
+[node name="TileMap" type="TileMap" parent="." groups=[
+"tilemaps",
+]]
 tile_set = ExtResource( 1 )
 cell_size = Vector2( 16, 16 )
-cell_quadrant_size = 16
 cell_custom_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-cell_half_offset = 2
-cell_tile_origin = 0
-cell_y_sort = false
-cell_clip_uv = false
-collision_use_kinematic = false
-collision_friction = 1.0
-collision_bounce = 0.0
-collision_layer = 1
-collision_mask = 1
-occluder_light_mask = 1
 format = 1
 tile_data = PoolIntArray( -1179645, 0, 0, -1179644, 0, 0, -1179643, 0, 0, -1114109, 0, 0, -1114107, 0, 0, -1048573, 0, 0, -1048571, 0, 0, -983037, 0, 0, -983035, 0, 0, -983034, 0, 0, -983033, 0, 0, -983032, 0, 0, -983031, 0, 0, -983030, 0, 0, -983029, 0, 0, -983028, 0, 0, -917501, 0, 0, -917492, 0, 0, -851965, 0, 0, -851964, 0, 0, -851963, 0, 0, -851962, 0, 0, -851961, 0, 0, -851960, 0, 0, -851959, 0, 0, -851958, 0, 0, -851956, 0, 0, -786422, 0, 0, -786420, 0, 0, -720886, 0, 0, -720884, 0, 0, -655350, 0, 0, -655348, 0, 0, -589814, 0, 0, -589812, 0, 0, -524278, 0, 0, -524276, 0, 0, -458747, 0, 0, -458746, 0, 0, -458745, 0, 0, -458744, 0, 0, -458743, 0, 0, -458742, 0, 0, -458740, 0, 0, -458739, 0, 0, -458738, 0, 0, -458737, 0, 0, -458736, 0, 0, -458735, 0, 0, -458734, 0, 0, -393211, 0, 0, -393198, 0, 0, -327675, 0, 0, -327673, 0, 0, -327672, 0, 0, -327671, 0, 0, -327670, 0, 0, -327669, 0, 0, -327668, 0, 0, -327667, 0, 0, -327666, 0, 0, -327665, 0, 0, -327664, 0, 0, -327662, 0, 0, -262139, 0, 0, -262137, 0, 0, -262128, 0, 0, -262126, 0, 0, -196603, 0, 0, -196601, 0, 0, -196592, 0, 0, -196590, 0, 0, -196584, 0, 0, -196583, 0, 0, -196582, 0, 0, -196581, 0, 0, -196580, 0, 0, -65541, 0, 0, -65540, 0, 0, -65539, 0, 0, -65538, 0, 0, -65537, 0, 0, -131072, 0, 0, -131071, 0, 0, -131070, 0, 0, -131069, 0, 0, -131068, 0, 0, -131067, 0, 0, -131065, 0, 0, -131056, 0, 0, -131054, 0, 0, -131053, 0, 0, -131052, 0, 0, -131051, 0, 0, -131050, 0, 0, -131049, 0, 0, -131048, 0, 0, -131044, 0, 0, -5, 0, 0, -65529, 0, 0, -65520, 0, 0, -65508, 0, 0, 65531, 0, 0, 65532, 0, 0, 65533, 0, 0, 65534, 0, 0, 65535, 0, 0, 0, 0, 0, 1, 0, 0, 2, 0, 0, 3, 0, 0, 4, 0, 0, 5, 0, 0, 7, 0, 0, 16, 0, 0, 18, 0, 0, 19, 0, 0, 20, 0, 0, 21, 0, 0, 22, 0, 0, 23, 0, 0, 24, 0, 0, 28, 0, 0, 65541, 0, 0, 65543, 0, 0, 65552, 0, 0, 65554, 0, 0, 65560, 0, 0, 65561, 0, 0, 65562, 0, 0, 65563, 0, 0, 65564, 0, 0, 131077, 0, 0, 131079, 0, 0, 131088, 0, 0, 131090, 0, 0, 196613, 0, 0, 196615, 0, 0, 196616, 0, 0, 196617, 0, 0, 196618, 0, 0, 196619, 0, 0, 196620, 0, 0, 196621, 0, 0, 196622, 0, 0, 196623, 0, 0, 196624, 0, 0, 196626, 0, 0, 262149, 0, 0, 262162, 0, 0, 327685, 0, 0, 327686, 0, 0, 327687, 0, 0, 327688, 0, 0, 327689, 0, 0, 327690, 0, 0, 327692, 0, 0, 327693, 0, 0, 327694, 0, 0, 327695, 0, 0, 327696, 0, 0, 327697, 0, 0, 327698, 0, 0, 393226, 0, 0, 393228, 0, 0, 458762, 0, 0, 458764, 0, 0, 524298, 0, 0, 524300, 0, 0, 589834, 0, 0, 589836, 0, 0, 655370, 0, 0, 655372, 0, 0, 720906, 0, 0, 720908, 0, 0, 786436, 0, 0, 786437, 0, 0, 786438, 0, 0, 786439, 0, 0, 786440, 0, 0, 786441, 0, 0, 786442, 0, 0, 786444, 0, 0, 786445, 0, 0, 786446, 0, 0, 786447, 0, 0, 786448, 0, 0, 786449, 0, 0, 786450, 0, 0, 851972, 0, 0, 851986, 0, 0, 917508, 0, 0, 917509, 0, 0, 917510, 0, 0, 917511, 0, 0, 917512, 0, 0, 917513, 0, 0, 917514, 0, 0, 917515, 0, 0, 917516, 0, 0, 917517, 0, 0, 917518, 0, 0, 917519, 0, 0, 917520, 0, 0, 917521, 0, 0, 917522, 0, 0 )
-_sections_unfolded = [ "Cell" ]
 
-[node name="Player" parent="." index="1" instance=ExtResource( 2 )]
-
-editor/display_folded = true
+[node name="Player" parent="." instance=ExtResource( 2 )]
 position = Vector2( -56, -8 )
 rotation = -1.5708
-_sections_unfolded = [ "Collision", "Transform", "collision" ]
 
-[node name="NPC" parent="." index="2" instance=ExtResource( 3 )]
-
+[node name="NPC" parent="." instance=ExtResource( 3 )]
 position = Vector2( 72, -216 )
 id = "h_zombie"
 
-[node name="NPC2" parent="." index="3" instance=ExtResource( 3 )]
-
+[node name="NPC2" parent="." instance=ExtResource( 3 )]
 position = Vector2( 280, 24 )
 id = "h_zombie"
 
-[node name="NPC3" parent="." index="4" instance=ExtResource( 3 )]
-
+[node name="NPC3" parent="." instance=ExtResource( 3 )]
 position = Vector2( 88, 216 )
 id = "h_zombie"
 
-[node name="NPC4" parent="." index="5" instance=ExtResource( 3 )]
-
+[node name="NPC4" parent="." instance=ExtResource( 3 )]
 position = Vector2( 264, 216 )
 id = "h_zombie"
 
-[node name="LootBag" parent="." index="6" instance=ExtResource( 4 )]
-
-editor/display_folded = true
+[node name="LootBag" parent="." instance=ExtResource( 4 )]
 position = Vector2( 72, -264 )
 content1 = "w_fireball"
 
-[node name="JournalLogTrigger3" parent="LootBag" index="1" instance=ExtResource( 5 )]
-
+[node name="JournalLogTrigger3" parent="LootBag" instance=ExtResource( 5 )]
 position = Vector2( 0, 32 )
 stream = ExtResource( 6 )
-play_on_start = false
 
-[node name="Ladder" parent="." index="7" instance=ExtResource( 7 )]
-
+[node name="Ladder" parent="." instance=ExtResource( 7 )]
 position = Vector2( 424, -8 )
-load_next_on_use = true
 
-[node name="StoneGate" parent="." index="8" instance=ExtResource( 8 )]
-
-editor/display_folded = true
+[node name="StoneGate" parent="." instance=ExtResource( 8 )]
 position = Vector2( 344, -8 )
-closed = true
 
-[node name="JournalLogTrigger4" parent="StoneGate" index="2" instance=ExtResource( 5 )]
-
+[node name="JournalLogTrigger4" parent="StoneGate" instance=ExtResource( 5 )]
 position = Vector2( -16, 0 )
 stream = ExtResource( 9 )
 one_shot = false
-play_on_start = false
 
-[node name="StoneGate2" parent="." index="9" instance=ExtResource( 8 )]
-
+[node name="StoneGate2" parent="." instance=ExtResource( 8 )]
 position = Vector2( 376, -8 )
-closed = true
 
-[node name="JournalLogTrigger5" parent="StoneGate2" index="2" instance=ExtResource( 5 )]
-
+[node name="JournalLogTrigger5" parent="StoneGate2" instance=ExtResource( 5 )]
 position = Vector2( -16, 0 )
 stream = ExtResource( 9 )
 one_shot = false
-play_on_start = false
 
-[node name="JournalLogTrigger" parent="." index="10" instance=ExtResource( 5 )]
-
+[node name="JournalLogTrigger" parent="." instance=ExtResource( 5 )]
 position = Vector2( -8, 8 )
 stream = ExtResource( 10 )
 play_on_start = true
 
-[node name="JournalLogTrigger6" parent="." index="11" instance=ExtResource( 5 )]
-
+[node name="JournalLogTrigger6" parent="." instance=ExtResource( 5 )]
 position = Vector2( 136, -216 )
 stream = ExtResource( 11 )
-play_on_start = false
 
-[node name="JournalLogTrigger7" parent="." index="12" instance=ExtResource( 5 )]
-
+[node name="JournalLogTrigger7" parent="." instance=ExtResource( 5 )]
 position = Vector2( 184, 216 )
 stream = ExtResource( 11 )
-play_on_start = false
 
-[node name="Brook" type="AudioStreamPlayer2D" parent="." index="13"]
-
-editor/display_folded = true
+[node name="Brook" type="AudioStreamPlayer2D" parent="."]
 position = Vector2( 104, -8 )
 stream = ExtResource( 12 )
-volume_db = 0.0
 autoplay = true
 max_distance = 50.0
-attenuation = 1.0
-bus = "Master"
-area_mask = 1
 
-[node name="JournalLogTrigger2" parent="Brook" index="0" instance=ExtResource( 5 )]
-
+[node name="JournalLogTrigger2" parent="Brook" instance=ExtResource( 5 )]
 stream = ExtResource( 13 )
-play_on_start = false
 
-[node name="Drips" type="AudioStreamPlayer2D" parent="." index="14"]
-
+[node name="Drips" type="AudioStreamPlayer2D" parent="."]
 position = Vector2( -24, -8 )
 stream = ExtResource( 14 )
-volume_db = 0.0
 autoplay = true
 max_distance = 50.0
-attenuation = 1.0
-bus = "Master"
-area_mask = 1
 
-[node name="PressurePad" parent="." index="15" instance=ExtResource( 15 )]
-
+[node name="PressurePad" parent="." instance=ExtResource( 15 )]
 position = Vector2( 184, 216 )
 
-[node name="PressurePad2" parent="." index="16" instance=ExtResource( 15 )]
-
+[node name="PressurePad2" parent="." instance=ExtResource( 15 )]
 position = Vector2( 136, -216 )
-
-[connection signal="activated" from="PressurePad" to="StoneGate2/JournalLogTrigger5" method="dont_play"]
-
 [connection signal="activated" from="PressurePad" to="StoneGate2" method="open"]
-
+[connection signal="activated" from="PressurePad" to="StoneGate2/JournalLogTrigger5" method="dont_play"]
 [connection signal="activated" from="PressurePad2" to="StoneGate" method="open"]
-
 [connection signal="activated" from="PressurePad2" to="StoneGate/JournalLogTrigger4" method="dont_play"]
 
-
 [editable path="Player"]
+
 [editable path="Player/Inventory"]

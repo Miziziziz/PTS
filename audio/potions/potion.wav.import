@@ -7,10 +7,7 @@ path="res://.import/potion.wav-e61842817a09d64874016931e3db8337.sample"
 [deps]
 
 source_file="res://audio/potions/potion.wav"
-source_md5="c0c2bff593fad31494f2826eeb07ac01"
-
 dest_files=[ "res://.import/potion.wav-e61842817a09d64874016931e3db8337.sample" ]
-dest_md5="a42cfba52dd25445533e811ab3026719"
 
 [params]
 

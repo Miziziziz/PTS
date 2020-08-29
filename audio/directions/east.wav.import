@@ -7,10 +7,7 @@ path="res://.import/east.wav-3cb7531f642d235c272b9331d4cfc379.sample"
 [deps]
 
 source_file="res://audio/directions/east.wav"
-source_md5="99f5949b9e7e1fc972db55af8e835d67"
-
 dest_files=[ "res://.import/east.wav-3cb7531f642d235c272b9331d4cfc379.sample" ]
-dest_md5="f48da9fa1334a0ced013942968ca6751"
 
 [params]
 

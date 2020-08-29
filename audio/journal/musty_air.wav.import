@@ -7,10 +7,7 @@ path="res://.import/musty_air.wav-8bf99ae6f808a1337eb3d0630eca10ea.sample"
 [deps]
 
 source_file="res://audio/journal/musty_air.wav"
-source_md5="511f673ae7daa0e23eaa8a69178c07d3"
-
 dest_files=[ "res://.import/musty_air.wav-8bf99ae6f808a1337eb3d0630eca10ea.sample" ]
-dest_md5="9c232972bae94c5cc23be5a735fabf9a"
 
 [params]
 

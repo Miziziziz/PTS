@@ -7,10 +7,7 @@ path="res://.import/drank.wav-c6d21d89eb8d8a0eadcd6b1151de926f.sample"
 [deps]
 
 source_file="res://audio/inventory/action/drank.wav"
-source_md5="5f414c8d3202eee198bf031961acc487"
-
 dest_files=[ "res://.import/drank.wav-c6d21d89eb8d8a0eadcd6b1151de926f.sample" ]
-dest_md5="7693ba263031c002a3f7fb1a61426398"
 
 [params]
 

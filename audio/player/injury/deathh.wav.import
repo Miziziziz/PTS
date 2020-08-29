@@ -7,10 +7,7 @@ path="res://.import/deathh.wav-eeae830f67794ada6447b7f83740b07f.sample"
 [deps]
 
 source_file="res://audio/player/injury/deathh.wav"
-source_md5="2c043d37d47b6400e110836a51cf3eed"
-
 dest_files=[ "res://.import/deathh.wav-eeae830f67794ada6447b7f83740b07f.sample" ]
-dest_md5="694e33ae624e193c63c32a6e0b495509"
 
 [params]
 

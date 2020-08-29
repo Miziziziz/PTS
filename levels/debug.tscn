@@ -9,54 +9,33 @@
 
 [node name="World" type="Node2D"]
 
-[node name="TileMap" type="TileMap" parent="." index="0"]
-
-mode = 0
+[node name="TileMap" type="TileMap" parent="." groups=[
+"tilemaps",
+]]
 tile_set = ExtResource( 1 )
 cell_size = Vector2( 16, 16 )
-cell_quadrant_size = 16
 cell_custom_transform = Transform2D( 1, 0, 0, 1, 0, 0 )
-cell_half_offset = 2
-cell_tile_origin = 0
-cell_y_sort = false
-cell_clip_uv = false
-collision_use_kinematic = false
-collision_friction = 1.0
-collision_bounce = 0.0
-collision_layer = 1
-collision_mask = 1
-occluder_light_mask = 1
 format = 1
 tile_data = PoolIntArray( -327684, 0, 0, -327683, 0, 0, -327682, 0, 0, -262148, 0, 0, -262146, 0, 0, -196612, 0, 0, -196610, 0, 0, -131076, 0, 0, -131074, 0, 0, -65543, 0, 0, -65542, 0, 0, -65541, 0, 0, -65540, 0, 0, -65538, 0, 0, -7, 0, 0, -2, 0, 0, 65529, 0, 0, 65530, 0, 0, 65531, 0, 0, 65532, 0, 0, 65533, 0, 0, 65534, 0, 0 )
-_sections_unfolded = [ "Cell" ]
 
-[node name="Player" parent="." index="1" instance=ExtResource( 2 )]
-
-editor/display_folded = true
+[node name="Player" parent="." instance=ExtResource( 2 )]
 position = Vector2( -88, -8.54038 )
 rotation = -1.5708
-_sections_unfolded = [ "Collision", "Transform", "collision" ]
 
-[node name="NPC" parent="." index="2" instance=ExtResource( 3 )]
-
+[node name="NPC" parent="." instance=ExtResource( 3 )]
 position = Vector2( 24, -88 )
-_sections_unfolded = [ "Collision", "Pickable", "Transform", "collision" ]
 id = "h_zombie"
 
-[node name="LootBag" parent="." index="3" instance=ExtResource( 4 )]
-
+[node name="LootBag" parent="." instance=ExtResource( 4 )]
 position = Vector2( 48, 0 )
 content1 = "w_bronze_dagger"
 
-[node name="Ladder" parent="." index="4" instance=ExtResource( 5 )]
-
+[node name="Ladder" parent="." instance=ExtResource( 5 )]
 position = Vector2( 96, 0 )
-load_next_on_use = true
 
-[node name="JournalLogTrigger" parent="." index="5" instance=ExtResource( 6 )]
-
+[node name="JournalLogTrigger" parent="." instance=ExtResource( 6 )]
 position = Vector2( -56, -8 )
 
-
 [editable path="Player"]
+
 [editable path="Player/Inventory"]

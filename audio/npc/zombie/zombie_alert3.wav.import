@@ -7,10 +7,7 @@ path="res://.import/zombie_alert3.wav-6a6a501914acf1a4dbd4e25689c0a93c.sample"
 [deps]
 
 source_file="res://audio/npc/zombie/zombie_alert3.wav"
-source_md5="33c2fcad90acd8aa61ca4e51672130ca"
-
 dest_files=[ "res://.import/zombie_alert3.wav-6a6a501914acf1a4dbd4e25689c0a93c.sample" ]
-dest_md5="0ce406cd8db658340539df280df67462"
 
 [params]
 

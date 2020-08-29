@@ -7,10 +7,7 @@ path="res://.import/painh.wav-b5c0ed2a53c454e6ae88bad3db58eb98.sample"
 [deps]
 
 source_file="res://audio/player/injury/painh.wav"
-source_md5="defb4bdf1b3342b32559d59714b29ba4"
-
 dest_files=[ "res://.import/painh.wav-b5c0ed2a53c454e6ae88bad3db58eb98.sample" ]
-dest_md5="d27c3b9aa061395a654c6e80b8e4f975"
 
 [params]
 
